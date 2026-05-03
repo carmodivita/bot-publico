@@ -1,0 +1,22 @@
+[
+  { "file": 1, "path": "imgs/flag_1.png", "wait": 4 },
+  { "file": 2, "path": "imgs/flag_2.png", "wait": 4 },
+  { "file": 3, "path": "imgs/flag_3.png", "wait": 4 },
+  { "file": 4, "path": "imgs/flag_4.png", "wait": 4 },
+  { "file": 5, "path": "imgs/flag_5.png", "wait": 4 },
+  { "file": 6, "path": "imgs/flag_6.png", "wait": 4 },
+  { "file": 7, "path": "imgs/flag_7.png", "wait": 4 },
+  { "file": 8, "path": "imgs/flag_8.png", "wait": 4 },
+  { "file": 9, "path": "imgs/flag_9.png", "wait": 4 },
+  { "file": 10, "path": "imgs/flag_10.png", "wait": 4 },
+  { "file": 11, "path": "imgs/flag_11.png", "wait": 4 },
+  { "file": 12, "path": "imgs/flag_12.png", "wait": 4 },
+  { "file": 13, "path": "imgs/flag_13.png", "wait": 4 },
+  { "file": 14, "path": "imgs/flag_14.png", "wait": 4 },
+  { "file": 15, "path": "imgs/flag_15.png", "wait": 4 },
+  { "file": 16, "path": "imgs/flag_16.png", "wait": 4 },
+  { "file": 17, "path": "imgs/flag_17.png", "wait": 4, "stairs": true},
+  { "file": 18, "path": "imgs/flag_18.png", "wait": 4 },
+  { "file": 19, "path": "imgs/flag_19.png", "wait": 4 },
+  { "file": 20, "path": "imgs/flag_20.png", "wait": 4 }
+]
