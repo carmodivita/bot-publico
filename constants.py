@@ -24,7 +24,7 @@ BATTLE_REGION = (2182, 118, 344, 414)  # Valores 2x conf=0.8
 # True  → SCALE = 2 em main.py → coordenadas retornadas por locateOnScreen
 #         são divididas por 2 antes de passar para moveTo() e click().
 # False → SCALE = 1 → coordenadas usadas diretamente.
-MAC = True #If MacOS return True to use HIGH_DPI 2x
+#MAC = True #If MacOS return True to use HIGH_DPI 2x
 
 #Attack Value
 # Cores que indicam que o personagem está com um alvo selecionado/atacando.
@@ -82,8 +82,11 @@ KEY_LOOT = 'f'   # abrir / lootar cadáver próximo
 KEY_EXURA = '1'  # feitiço de cura leve (Exura)
 KEY_LIFE = '3'   # usar poção de vida
 KEY_MANA = '4'   # usar poção de mana
+KEY_ROPE = 'r'
 
 #Posições do char(personagem) no jogo
 #Clique escada
 stairs_x = 561
 stairs_y = 432
+ROPE_X = 549
+ROPE_Y = 432 #MUDAR

@@ -20,6 +20,7 @@ import pyautogui as pg   # controle de tela: pixel, imagem, teclado e mouse
 from pynput.keyboard import Listener   # escuta o teclado globalmente (independente do foco)
 from pynput import keyboard            # acesso aos objetos de teclas especiais (Key.esc, etc.)
 import time
+import platform
 #import threading      # usado indiretamente via ThreadController
 #import life_mana      # módulo de cura/mana (importado aqui para referência)
 
@@ -33,7 +34,11 @@ from thread_bot import ThreadController
 pg.useImageNotFoundException(False)
 
 # Lê a flag de macOS definida em constants.py
-is_MAC = constants.MAC
+if platform.system() == "Darwin":
+    is_MAC = True
+else:
+    is_MAC = False
+
 # SCALE converte coordenadas de físico (2x) para lógico (1x).
 # locateOnScreen() retorna posições em pixels físicos (2x no Retina).
 # moveTo() e click() esperam pixels lógicos (1x), então dividimos por SCALE.
@@ -167,6 +172,37 @@ def atk_monster():
         pg.press(constants.KEY_LOOT) # hotkey to loot — loota após o monstro morrer
 
 # ─────────────────────────────────────────────────────────────
+#  execute_actions — Executa ações extras baseadas nas chaves do waypoint
+# ─────────────────────────────────────────────────────────────
+#  Cada chave em item (ex: "stairs", "rope") é mapeada para uma função
+#  neste dicionário. Isso evita uma cadeia de ifs no run().
+#
+#  Para adicionar uma nova ação:
+#    1. Crie a função
+#    2. Adicione ao dicionário ACTIONS com a chave correspondente do JSON
+#    3. Adicione a(s) coordenada(s) em constants.py (se necessário)
+#
+def action_stairs():
+    #sobe estava clicando no cantinho, assim não há como bloquear ficando em cima dela.
+    pg.moveTo(constants.stairs_x, constants.stairs_y)
+    pg.rightClick()
+    pg.sleep(0.5)
+
+def actions_rope():
+    #Usa corda: pressiona Hotkey e clica no personagem-em cima do local
+    pg.moveTo(constants.ROPE_X, constants.ROPE_Y)
+    pg.sleep(0.2)
+    pg.press(constants.KEY_ROPE)
+    pg.click()
+    pg.sleep(0.4)
+
+#Mapeamento de chaves -> função
+ACTIONS = {
+    "stairs": action_stairs,
+    "rope": actions_rope,
+}
+
+# ─────────────────────────────────────────────────────────────
 #  navigate_to_waypoint — Vai até o waypoint e confirma chegada
 # ─────────────────────────────────────────────────────────────
 #  1. Tenta clicar no flag via go_flag()
@@ -221,10 +257,12 @@ def run():
 
             #Busca a bandeira, tenta ir até ela nas tentativas maximas
             go_waypoint(item["path"], item["file"], item["wait"], constants.MAX_WAYPOINT_ATTEMPTS)
-            if item.get("stairs"):
-                pg.moveTo(constants.stairs_x,constants.stairs_y)
-                pg.rightClick()
-                pg.sleep(0.5)
+
+            #Executa todas as ações extras definidas no JSON
+            for key, func in ACTIONS.items():
+                if item.get(key):
+                    func()
+
 
 
 #Criaçao do bot
