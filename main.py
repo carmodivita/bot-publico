@@ -20,13 +20,20 @@ import pyautogui as pg   # controle de tela: pixel, imagem, teclado e mouse
 from pynput.keyboard import Listener   # escuta o teclado globalmente (independente do foco)
 from pynput import keyboard            # acesso aos objetos de teclas especiais (Key.esc, etc.)
 import time
+import os
 import platform
+import teclas         # pg.press() com lock — evita colisão com a thread de cura
+import mix_vida_mana  # regiao_preta() — checa captura bloqueada antes de iniciar
 #import threading      # usado indiretamente via ThreadController
 #import life_mana      # módulo de cura/mana (importado aqui para referência)
 
 
 # Importa a classe que gerencia threads e eventos de controle do bot
 from thread_bot import ThreadController
+
+# Caminhos relativos (info.json, imgs/) passam a valer de qualquer pasta
+# de onde o bot for aberto (atalho, interface, terminal).
+os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
 
 # Desativa a exceção que pyautogui lançaria quando locateOnScreen()
@@ -44,6 +51,13 @@ else:
 # moveTo() e click() esperam pixels lógicos (1x), então dividimos por SCALE.
 SCALE = 2 if is_MAC else 1
 
+# Troca "imgs/" pela pasta de imagens do sistema atual (imgs_windows/ no Windows).
+# Assim o info.json continua o mesmo nos dois sistemas.
+def img(path):
+    if path.startswith("imgs/"):
+        return constants.IMG_DIR + "/" + path[len("imgs/"):]
+    return path
+
 # ─────────────────────────────────────────────────────────────
 #  go_flag — Navega até um waypoint clicando no minimapa
 # ─────────────────────────────────────────────────────────────
@@ -57,7 +71,7 @@ def go_flag(path, wait):
     # Busca a imagem do flag dentro da região do minimapa com 80% de confiança.
     # confidence=0.8 → aceita imagem levemente diferente (variação de render).
     # region=MAP_REGION → limita a busca ao minimapa, não varre a tela inteira.
-    data = pg.locateOnScreen(path, confidence=0.8, region=constants.MAP_REGION)
+    data = pg.locateOnScreen(img(path), confidence=0.8, region=constants.MAP_REGION)
     if data:
         # Get the flag center
         # locateOnScreen retorna um objeto Box com coordenadas em pixels físicos (2x).
@@ -77,11 +91,12 @@ def go_flag(path, wait):
     return False  # flag não encontrado no minimapa
 
 # ─────────────────────────────────────────────────────────────
-#  player_pos — Stub (não implementado)
+#  player_pos — Confirma se o personagem chegou na flag
 # ─────────────────────────────────────────────────────────────
-#  TODO: futuramente detectar a posição do personagem no mapa.
+#  A flag fica no centro do minimapa (flag_x, flag_y) quando o personagem
+#  está em cima dela. Retorna True se chegou, False caso contrário.
 def player_pos(path, file):
-    player_flag = pg.locateOnScreen(path, confidence=0.75, region=constants.MAP_REGION)
+    player_flag = pg.locateOnScreen(img(path), confidence=0.75, region=constants.MAP_REGION)
     if player_flag:
         center_x, center_y = pg.center(player_flag)
         player_x = center_x // SCALE
@@ -93,6 +108,8 @@ def player_pos(path, file):
         else:
             print(f"Player didn't arrive at {file}.")
             return False
+    print(f"Flag {file} not visible on minimap.")
+    return False  # antes retornava None implícito
 
 
 # ─────────────────────────────────────────────────────────────
@@ -129,6 +146,7 @@ def pixel_atk():
             # O bloco "else" do for executa apenas quando o loop termina SEM break.
             # Significa: nenhuma das cores de ataque foi encontrada → monstro morreu.
             print("Dead....")
+            status["kills"] += 1
             return False  # sinaliza ao chamador que o alvo foi eliminado
 
         if time.time() - start_time > 10:
@@ -141,7 +159,7 @@ def pixel_atk():
 #  Retorna True se encontrar (há alvo ativo), False caso contrário.
 #  Usada em atk_monster() como condição de saída do loop de ataque.
 def check_battle():
-    battle = pg.locateOnScreen('imgs/battle.png', confidence=0.85, region=constants.BATTLE_REGION)
+    battle = pg.locateOnScreen(img('imgs/battle.png'), confidence=0.85, region=constants.BATTLE_REGION)
     if battle:
         return True
     else:
@@ -160,16 +178,17 @@ def atk_monster():
         # Verifica evento de parada logo após o desbloqueio do wait
         if bot.event_th.is_set():
             return  # ESC pressionado → sai do loop de ataque
-        pg.press(constants.KEY_LOOT) # loot — tenta lootar cadáver antes de atacar
-        pg.sleep(0.2) # small delay — pausa para o jogo processar
-        pg.press(constants.KEY_ATK) # shortcut to attack — pressiona tecla de ataque
+        status["acao"] = "Atacando"
+        # O combo loot → ataque é feito sob o lock para a cura não entrar no meio
+        with teclas.KEY_LOCK:
+            teclas.press(constants.KEY_LOOT) # loot — tenta lootar cadáver antes de atacar
+            pg.sleep(0.2) # small delay — pausa para o jogo processar
+            teclas.press(constants.KEY_ATK) # shortcut to attack — pressiona tecla de ataque
 
-        if pixel_atk(): # Se True, sai de pixel e volta atk_monster
-            # TODO: pixel_atk() nunca retorna True (retorna False ou None).
-            # Este bloco é inalcançável no estado atual do código.
+        if pixel_atk(): # True = passou 10s atacando o mesmo alvo → desiste e segue
             print("Time out...leaving atk...")
             break
-        pg.press(constants.KEY_LOOT) # hotkey to loot — loota após o monstro morrer
+        teclas.press(constants.KEY_LOOT) # hotkey to loot — loota após o monstro morrer
 
 # ─────────────────────────────────────────────────────────────
 #  execute_actions — Executa ações extras baseadas nas chaves do waypoint
@@ -182,6 +201,12 @@ def atk_monster():
 #    2. Adicione ao dicionário ACTIONS com a chave correspondente do JSON
 #    3. Adicione a(s) coordenada(s) em constants.py (se necessário)
 #
+def action_click_left():
+    #Escada/buraco: clica no ponto calibrado ("Clique na escada") com o botão esquerdo
+    pg.moveTo(constants.stairs_x, constants.stairs_y)
+    pg.click()
+    pg.sleep(0.5)
+
 def action_stairs():
     #sobe estava clicando no cantinho, assim não há como bloquear ficando em cima dela.
     pg.moveTo(constants.stairs_x, constants.stairs_y)
@@ -192,15 +217,73 @@ def actions_rope():
     #Usa corda: pressiona Hotkey e clica no personagem-em cima do local
     pg.moveTo(constants.ROPE_X, constants.ROPE_Y)
     pg.sleep(0.2)
-    pg.press(constants.KEY_ROPE)
-    pg.click()
+    with teclas.KEY_LOCK:  # a cura não pode apertar tecla entre a corda e o clique
+        teclas.press(constants.KEY_ROPE)
+        pg.click()
     pg.sleep(0.4)
 
-#Mapeamento de chaves -> função
+def action_shovel():
+    #Usa a pá: pressiona a hotkey e clica no buraco (abre o buraco para descer)
+    pg.moveTo(constants.SHOVEL_X, constants.SHOVEL_Y)
+    pg.sleep(0.2)
+    with teclas.KEY_LOCK:  # a cura não pode apertar tecla entre a pá e o clique
+        teclas.press(constants.KEY_SHOVEL)
+        pg.click()
+    pg.sleep(0.4)
+
+# ─────────────────────────────────────────────────────────────
+#  drop_junk — Joga no chão os itens de lixo da mochila do loot
+# ─────────────────────────────────────────────────────────────
+#  Os itens são os recortes em <IMG_DIR>/lixo/ (capturados na aba Lixo).
+#  Para cada um, procura na mochila e arrasta para (DROP_X, DROP_Y).
+#  Arrastar uma pilha joga a pilha inteira. Limite por item evita loop
+#  infinito se o arraste falhar (ex.: chão bloqueado).
+JUNK_MAX_DROPS = 8
+
+def drop_junk():
+    if not constants.BACKPACK_REGION or constants.DROP_X is None:
+        return
+    pasta = os.path.join(constants.IMG_DIR, "lixo")
+    if not os.path.isdir(pasta):
+        return
+    for nome in sorted(f for f in os.listdir(pasta) if f.lower().endswith(".png")):
+        for _ in range(JUNK_MAX_DROPS):
+            bot.pause_th.wait()
+            if bot.event_th.is_set():
+                return
+            achou = pg.locateOnScreen(os.path.join(pasta, nome), confidence=0.9, region=constants.BACKPACK_REGION)
+            if not achou:
+                break
+            cx, cy = pg.center(achou)
+            status["acao"] = f"Jogando lixo ({nome})"
+            pg.moveTo(cx / SCALE, cy / SCALE)
+            pg.dragTo(constants.DROP_X, constants.DROP_Y, duration=0.3, button="left")
+            pg.sleep(0.4)
+
+#Mapeamento do campo "acao" do waypoint (info.json) -> função.
+#A ordem e os nomes aparecem no menu de cada flag na aba Rota.
 ACTIONS = {
-    "stairs": action_stairs,
+    "click_left": action_click_left,
+    "stairs": action_stairs,      # clique direito
     "rope": actions_rope,
+    "shovel": action_shovel,
 }
+ACTION_NAMES = {"click_left": "clique esquerdo", "stairs": "clique direito", "rope": "corda", "shovel": "pá"}
+
+
+def action_of(item):
+    """Ação da flag: campo "acao", ou o formato antigo ("stairs": true, "rope": true...)."""
+    acao = item.get("acao")
+    if acao in ACTIONS:
+        return acao
+    return next((k for k in ACTIONS if item.get(k) is True), None)
+
+
+def save_route():
+    """Grava dados em info.json, uma flag por linha (fácil de editar à mão)."""
+    linhas = ",\n".join("  " + json.dumps(item, ensure_ascii=False) for item in dados)
+    with open("info.json", "w", encoding="utf-8") as f:
+        f.write("[\n" + linhas + "\n]\n")
 
 # ─────────────────────────────────────────────────────────────
 #  navigate_to_waypoint — Vai até o waypoint e confirma chegada
@@ -233,6 +316,9 @@ def go_waypoint(path,file,wait,max_attempts):
 with open("info.json", "r") as f:
     dados = json.load(f)
 
+# Estado atual do bot — lido pela interface (gui.py) para mostrar o progresso.
+status = {"waypoint": 0, "total": len(dados), "kills": 0, "acao": "Parado"}
+
 # ─────────────────────────────────────────────────────────────
 #  run — Loop principal do bot (executado por th_run)
 # ─────────────────────────────────────────────────────────────
@@ -246,22 +332,44 @@ with open("info.json", "r") as f:
 #    1. bot.pause_th.wait() → trava se CapsLock foi pressionado
 #    2. if bot.event_th.is_set() → sai se ESC foi pressionado
 def run():
-    while not bot.event_th.is_set():
-        for item in dados:
-            bot.pause_th.wait()           # trava aqui se bot estiver pausado (CapsLock)
-            if bot.event_th.is_set():     # verifica se ESC foi pressionado
-                return
-            atk_monster()                 # ataca todos os monstros na posição atual
-            if bot.event_th.is_set():     # verifica novamente após o combate
-                return                    # ESC durante combate → sai sem navegar
+    status["kills"] = 0
+    # Sem as imagens das flags o locateOnScreen quebra com OSError na primeira busca.
+    faltando = [item["file"] for item in dados if not os.path.exists(img(item["path"]))]
+    if faltando:
+        print(f"Faltam as flags {faltando} em {constants.IMG_DIR}/ — capture-as na aba Rota antes de iniciar.")
+        return
+    try:
+        while not bot.event_th.is_set():
+            for item in dados:
+                bot.pause_th.wait()           # trava aqui se bot estiver pausado (CapsLock)
+                if bot.event_th.is_set():     # verifica se ESC foi pressionado
+                    return
+                status["waypoint"] = item["file"]
+                atk_monster()                 # ataca todos os monstros na posição atual
+                if bot.event_th.is_set():     # verifica novamente após o combate
+                    return                    # ESC durante combate → sai sem navegar
+                drop_junk()                   # joga no chão o lixo que entrou na mochila
+                if bot.event_th.is_set():
+                    return
 
-            #Busca a bandeira, tenta ir até ela nas tentativas maximas
-            go_waypoint(item["path"], item["file"], item["wait"], constants.MAX_WAYPOINT_ATTEMPTS)
+                #Busca a bandeira, tenta ir até ela nas tentativas maximas
+                status["acao"] = f"Indo para flag {item['file']}"
+                chegou = go_waypoint(item["path"], item["file"], item["wait"], constants.MAX_WAYPOINT_ATTEMPTS)
+                if bot.event_th.is_set():
+                    return
 
-            #Executa todas as ações extras definidas no JSON
-            for key, func in ACTIONS.items():
-                if item.get(key):
-                    func()
+                # Ações extras (escada, corda) só fazem sentido no ponto certo:
+                # se não chegou na flag, clicar na "escada" acertaria outro lugar.
+                acao = action_of(item)
+                if not chegou:
+                    if acao:
+                        print(f"Skipping action of flag {item['file']}: player not in position.")
+                    continue
+                if acao:
+                    status["acao"] = f"Ação: {ACTION_NAMES[acao]}"
+                    ACTIONS[acao]()
+    finally:
+        status["acao"] = "Parado"
 
 
 
@@ -269,7 +377,7 @@ def run():
 # Instancia o ThreadController passando run() como função da thread principal.
 # Neste ponto os eventos e threads são criados mas NÃO iniciados.
 # bot deve ser criado APÓS run() ser definida pois run() é passada como argumento.
-# O bot só começa a rodar quando Backspace for pressionado (bot.start()).
+# O bot só começa a rodar quando START_KEY (Insert) for pressionada (bot.start()).
 bot = ThreadController(run_func=run)
 
 
@@ -279,31 +387,56 @@ bot = ThreadController(run_func=run)
 #  Chamada pelo pynput toda vez que qualquer tecla é pressionada.
 #  Recebe o objeto "key" que representa a tecla pressionada.
 #
-#  Filtra para processar apenas teclas especiais (ESC, CapsLock, Backspace).
+#  Filtra para processar apenas as teclas de controle (constants.START/PAUSE/STOP_KEY).
 #  Teclas comuns como 'f', 't' pressionadas pelo bot via pg.press()
 #  também chegam aqui — o isinstance() as descarta antes de qualquer lógica.
-def key_code(key):
+def key_code(key, on_esc=None):
     # isinstance(key, keyboard.Key) retorna True apenas para teclas especiais.
     # Teclas comuns ('f', 't', '1', etc.) são instâncias de keyboard.KeyCode → ignoradas.
     # Sem este filtro, cada pg.press() do bot acionaria este callback desnecessariamente.
-    if not isinstance(key, keyboard.Key):
-        return
+    start_key = getattr(keyboard.Key, constants.START_KEY)
+    pause_key = getattr(keyboard.Key, constants.PAUSE_KEY)
+    stop_key = getattr(keyboard.Key, constants.STOP_KEY)
+    if key not in (start_key, pause_key, stop_key):
+        return  # só as 3 teclas de controle interessam (e não poluem o log)
     print('key ->', key)  # loga no terminal para debug
 
-    if key == keyboard.Key.esc:
+    if key == stop_key:
         # ESC → para o bot completamente e encerra o listener
         bot.stop()         # seta event_th e pause_th → threads encerram
-        listener.stop()    # para o Listener do pynput → listener.join() retorna → programa encerra
+        if on_esc:
+            on_esc()       # no modo terminal: para o listener → programa encerra
 
-    if key == keyboard.Key.caps_lock:
+    if key == pause_key:
         # CapsLock → alterna entre pausado e rodando
         # Apenas th_run pausa; th_supplies continua curando o personagem
         bot.toggle_pause()
 
-    if key == keyboard.Key.backspace:
-        # Backspace → inicia as threads do bot
+    if key == start_key:
+        # Insert (START_KEY) → inicia as threads do bot
         # th_run começa run() e th_supplies começa supplies_loop() em paralelo
-        bot.start()
+        if captura_ok():
+            bot.start()
+
+
+# ─────────────────────────────────────────────────────────────
+#  captura_ok — Recusa iniciar se o bot estiver "cego"
+# ─────────────────────────────────────────────────────────────
+#  Se a calibração foi feita com a captura bloqueada, as cores ficaram
+#  (0, 0, 0); se o bloqueio está ativo agora, a barra de vida sai preta.
+#  Nos dois casos o bot curaria/atacaria às cegas.
+def captura_ok():
+    pretas = [n for n in ("LIFE_COLOR", "MANA_COLOR", "RED_ATK")
+              if tuple(getattr(constants, n, (1,))) == (0, 0, 0)]
+    if pretas:
+        print(f"Bot não iniciado: {', '.join(pretas)} calibradas como preto (0, 0, 0) — "
+              f"a captura de tela estava bloqueada. Refaça a calibração com a captura funcionando.")
+        return False
+    if mix_vida_mana.regiao_preta(constants.LIFE):
+        print("Bot não iniciado: captura de tela bloqueada — a barra de vida saiu toda preta. "
+              "O cliente do jogo está escondendo a janela de capturas.")
+        return False
+    return True
 
 # ─────────────────────────────────────────────────────────────
 #  Listener de teclado — trava a thread principal aqui
@@ -314,5 +447,8 @@ def key_code(key):
 #  listener.join() → TRAVA a thread principal aqui indefinidamente,
 #                    mantendo o programa vivo enquanto o listener estiver ativo.
 #  O programa encerra quando bot.stop() chama listener.stop() via ESC.
-with Listener(on_press=key_code) as listener:
-    listener.join()
+#  Só roda quando main.py é executado direto — a interface (gui.py)
+#  importa este arquivo e cria o próprio listener, sem fechar no ESC.
+if __name__ == "__main__":
+    with Listener(on_press=lambda key: key_code(key, on_esc=listener.stop)) as listener:
+        listener.join()

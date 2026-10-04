@@ -1,0 +1,237 @@
+==============================================================
+  HUNTIX — COMO USAR
+==============================================================
+
+Bot para Tibia (versão atual) que caça sozinho: anda por uma rota
+de marcas no minimapa, ataca os monstros, loota e se cura.
+
+Ele NÃO lê a memória do jogo. Ele olha a tela (cores e imagens)
+e aperta teclas / clica no seu lugar, como se fosse você.
+
+ATENÇÃO: as regras do Tibia proíbem bots e a conta pode ser
+banida. Use por sua conta e risco, de preferência num servidor
+que permita.
+
+
+--------------------------------------------------------------
+  1. ABRIR O BOT
+--------------------------------------------------------------
+
+  Dois cliques em "Huntix.lnk" (na pasta do projeto).
+
+  Se não abrir, pelo terminal, dentro da pasta:
+      python gui.py
+  (assim aparece a mensagem de erro, se houver)
+
+  Precisa ter instalado (uma vez só):
+      pip install pyautogui pynput Pillow opencv-python mss numpy customtkinter
+
+
+--------------------------------------------------------------
+  2. TECLAS
+--------------------------------------------------------------
+
+  Funcionam mesmo com o Tibia em foco (são globais):
+
+      Insert      iniciar o bot
+      CapsLock    pausar / retomar (a cura continua funcionando)
+      End         parar o bot  /  cancelar calibração
+
+  Só durante a calibração ou captura de flags:
+
+      Home        capturar (grava o ponto onde está o mouse)
+      Page Down   pular o passo
+
+  Todas podem ser trocadas na aba AJUSTES. F1–F12 ficam de fora
+  de propósito: são hotkeys do próprio Tibia.
+
+
+--------------------------------------------------------------
+  3. PREPARAR O TIBIA (antes de tudo)
+--------------------------------------------------------------
+
+  O bot depende de onde as coisas estão na tela. Então:
+
+  - Deixe o Tibia do jeito que você vai jogar sempre: mesmo
+    tamanho de janela, mesma posição do minimapa e da lista de
+    batalha (Battle List).
+  - Configure as hotkeys no Tibia (atacar, lootear, corda, pá,
+    poções e magia de cura) e depois ensine as mesmas teclas ao
+    bot na aba AJUSTES (veja a seção 7).
+  - Se mudar o layout ou a resolução depois, refaça a calibração.
+
+
+--------------------------------------------------------------
+  4. CALIBRAR (aba CALIBRAÇÃO) — uma vez só
+--------------------------------------------------------------
+
+  Ensina ao bot onde ficam as coisas na SUA tela.
+
+  1. Clique em "Iniciar assistente".
+  2. Em cada passo, vá até o Tibia, ponha o mouse no lugar pedido
+     e aperte HOME. O assistente avança sozinho.
+  3. Os passos são:
+
+     Minimapa ........ canto superior esquerdo e inferior direito
+     Lista de batalha  os dois cantos — com a lista VAZIA
+                       (sem nenhum monstro na tela)
+     Ataque .......... ataque um monstro e ponha o mouse na borda
+                       VERMELHA dele na lista de batalha
+     Vida ............ com a vida CHEIA: ponta esquerda e direita
+                       da barra, na altura do meio dela
+     Mana ............ igual, com a mana CHEIA
+     Ações ........... (opcional) onde clicar na escada / usar
+                       a corda / usar a pá
+
+  O quadro "Mouse agora" mostra a posição e a cor embaixo do
+  mouse — ajuda a acertar a borda vermelha e as barras.
+
+  Tudo é salvo na hora. Para refazer só um passo, clique nele na
+  lista da esquerda.
+
+
+--------------------------------------------------------------
+  5. MONTAR A ROTA (aba ROTA)
+--------------------------------------------------------------
+
+  Como o bot anda:
+    Você coloca marcas (bandeirinhas) no minimapa do Tibia ao
+    longo do caminho de caça. O bot procura a próxima marca no
+    minimapa, clica nela e o próprio Tibia leva o boneco até lá.
+    Quando a marca fica no CENTRO do minimapa, ele sabe que
+    chegou. Depois da última, volta para a primeira.
+
+  Passo a passo:
+  1. No Tibia, crie as marcas no minimapa, na ordem do caminho.
+     Use ícones diferentes ou pontos bem distintos, para o bot
+     não confundir uma com a outra.
+  2. Na aba ROTA, clique em "Capturar em sequência".
+  3. Para cada flag: ande até ela aparecer no minimapa, ponha o
+     mouse no CENTRO dela e aperte HOME. (Page Down pula.)
+  4. Cada flag capturada aparece com a miniatura no quadro.
+
+  Dicas:
+  - A próxima marca precisa APARECER no minimapa de onde o boneco
+    está. Marcas muito longe não são encontradas — deixe-as perto
+    umas das outras.
+  - Subir/descer andar (escada, corda) precisa de uma ação no
+    arquivo info.json, por exemplo:
+        { "file": 17, "path": "imgs/flag_17.png", "wait": 4, "stairs": true }
+    ("stairs" = clica na escada, "rope" = usa a corda,
+     "shovel" = usa a pá para abrir um buraco.)
+  - "wait" é quantos segundos o bot espera andando até a flag.
+  - Se o servidor não tiver marcas no minimapa, capture qualquer
+    pedacinho do minimapa que seja único (uma ponte, uma casa).
+
+
+--------------------------------------------------------------
+  6. RODAR (aba PAINEL)
+--------------------------------------------------------------
+
+  1. Confira que o aviso amarelo sumiu (calibração e flags ok).
+  2. Vá para o primeiro ponto da rota no jogo.
+  3. Clique em "Iniciar" ou aperte INSERT com o Tibia em foco.
+
+  O painel mostra:
+    - vida e mana lidas da tela, ao vivo
+    - em qual flag o bot está e o que está fazendo
+    - abates, abates por hora e tempo rodando
+    - o log (verde = ok, azul = cura, amarelo = aviso, vermelho = erro)
+
+  "Sempre no topo" (no menu lateral) deixa a janela por cima do
+  Tibia.
+
+
+--------------------------------------------------------------
+  7. AJUSTES (aba AJUSTES)
+--------------------------------------------------------------
+
+  HOTKEYS DO JOGO (Atacar, Lootear, Corda, Pá)
+    Clique no botão da tecla e aperte a tecla no teclado — o bot
+    reconhece sozinho. Vale combinação: Shift + F1, Ctrl + 3...
+    Esc cancela. Use as MESMAS teclas configuradas no Tibia.
+
+  CURA AUTOMÁTICA
+    1. Escolha a vocação: Knight, Paladin, Druid, Sorcerer ou Monk.
+       As listas mostram as magias de cura daquela vocação e as
+       poções do jogo ("Mostrar magias de todas as vocações" libera
+       tudo).
+    2. Para cada cura, escolha o que usar, defina a tecla (clique e
+       aperte) e o % de vida/mana:
+
+       Cura de emergência  vida crítica  (ex.: Great Health Potion)
+       Magia de cura       vida baixa    (ex.: exura ico / exura vita)
+       Mana                mana baixa    (ex.: Great Mana Potion)
+
+       O botão ao lado de cada uma liga/desliga aquela cura.
+    3. A emergência tem prioridade: abaixo dela o bot não usa a
+       magia nem a mana naquele momento.
+
+    Padrão: emergência abaixo de 50%, magia abaixo de 80%, mana
+    abaixo de 40%.
+
+  Clique em "Salvar ajustes". Vale na hora, até com o bot rodando.
+
+
+--------------------------------------------------------------
+  8. BIBLIOTECA (pasta biblioteca/)
+--------------------------------------------------------------
+
+  Dados de monstros, magias e poções/runas do Tibia atual, tirados
+  da TibiaWiki BR (www.tibiawiki.com.br): HP, EXP, fraquezas, loot,
+  palavras mágicas, mana, level, vocação...
+
+  Não aparece na interface: é a base de reconhecimento do bot. Hoje
+  as listas de cura da aba AJUSTES vêm daí; os monstros ficam para
+  recursos futuros (prioridade de alvo, EXP/hora...).
+
+  Arquivos: biblioteca/monstros.json, magias.json, pocoes_runas.json
+
+  Para atualizar (depois de um update do Tibia), na pasta do projeto:
+      python tools/baixar_biblioteca.py
+  (leva uns 3 minutos)
+
+
+--------------------------------------------------------------
+  9. PROBLEMAS COMUNS
+--------------------------------------------------------------
+
+  "flag_X.png not found"
+    A marca não está visível no minimapa, ou a captura ficou
+    ruim. Recapture a flag na aba ROTA, com o boneco perto dela.
+
+  O bot não ataca / fica atacando o nada
+    Refaça os passos "Lista de batalha" (com a lista VAZIA) e
+    "Ataque" na calibração.
+
+  Vida e mana aparecem "—" ou erradas
+    Refaça "Vida" e "Mana" na calibração, com as barras CHEIAS,
+    mouse bem no meio da altura da barra.
+
+  As teclas não fazem nada no jogo
+    Confira as hotkeys na aba AJUSTES — precisam ser as mesmas do
+    Tibia. Alguns clientes só aceitam teclas com a janela do
+    Tibia em foco: clique nela antes de iniciar.
+
+  Mudei o tamanho da janela / layout do Tibia
+    Refaça a calibração e recapture as flags.
+
+  Para tudo na hora: aperte END (ou feche a janela do bot).
+
+
+--------------------------------------------------------------
+  ARQUIVOS
+--------------------------------------------------------------
+
+  gui.py ............... a interface
+  main.py .............. lógica do bot (também roda sozinho no terminal)
+  calibrar.py .......... calibração pelo terminal (alternativa à aba)
+  info.json ............ a rota (ordem das flags, espera, ações)
+  constants.py ......... valores padrão
+  coords_windows.json .. coordenadas medidas na calibração
+  ajustes.json ......... o que você salvou na aba AJUSTES
+  imgs_windows/ ........ prints das flags e da lista de batalha
+  biblioteca.py ........ consulta a biblioteca (monstros, magias...)
+  biblioteca/ .......... os dados baixados da TibiaWiki BR (JSON)
+  tools/ ............... scripts para baixar a biblioteca e gerar os ícones
+  assets/ .............. ícone do Huntix

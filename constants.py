@@ -83,6 +83,17 @@ KEY_EXURA = '1'  # feitiço de cura leve (Exura)
 KEY_LIFE = '3'   # usar poção de vida
 KEY_MANA = '4'   # usar poção de mana
 KEY_ROPE = 'r'
+KEY_SHOVEL = 'f9'  # pá (shovel) — usada nas flags com "shovel": true
+
+# Teclas de CONTROLE do bot (nomes de pynput.keyboard.Key: "insert", "home",
+# "end", "pause", "scroll_lock", "f12"...). Evite F1–F12: são hotkeys do Tibia.
+START_KEY = "insert"     # iniciar
+PAUSE_KEY = "caps_lock"  # pausar / retomar
+STOP_KEY = "end"         # parar (Esc fica livre para fechar janelas no Tibia)
+
+# Teclas do calibrar.py (o cancelar é a mesma STOP_KEY acima)
+CAPTURE_KEY = "home"      # captura a posição/cor sob o mouse
+SKIP_KEY = "page_down"    # pula o passo atual
 
 #Posições do char(personagem) no jogo
 #Clique escada
@@ -90,3 +101,69 @@ stairs_x = 561
 stairs_y = 432
 ROPE_X = 549
 ROPE_Y = 432 #MUDAR
+# Onde usar a pá (o buraco fica, em geral, no sqm ao lado do personagem)
+SHOVEL_X = 549
+SHOVEL_Y = 432
+
+# Descarte de lixo (aba Lixo) — calibrados no grupo "Lixo"; None = desligado
+BACKPACK_REGION = None   # (x, y, largura, altura) da mochila onde cai o loot
+DROP_X = None            # ponto do chão onde o lixo é jogado
+DROP_Y = None
+
+# Pasta das imagens de template (flags do minimapa e battle.png).
+# As imagens de imgs/ foram capturadas num Mac Retina (2x) e NÃO batem
+# numa tela 1x do Windows, por isso o Windows usa uma pasta própria.
+IMG_DIR = "imgs"
+
+# =============================================================
+#  WINDOWS — sobrescreve os valores acima com coords_windows.json
+# =============================================================
+#  No Windows não existe a mistura 1x/2x do Retina: o pyautogui e o mss
+#  trabalham os dois em pixels físicos, então TODAS as coordenadas do
+#  JSON estão na mesma escala e são usadas direto (SCALE = 1 em main.py).
+#  O arquivo é gerado por calibrar.py — rode-o com o Tibia aberto.
+import json as _json
+import os as _os
+import platform as _platform
+
+if _platform.system() != "Darwin":
+    IMG_DIR = "imgs_windows"
+    _cfg_path = _os.path.join(_os.path.dirname(_os.path.abspath(__file__)), "coords_windows.json")
+    if _os.path.exists(_cfg_path):
+        with open(_cfg_path, "r", encoding="utf-8") as _f:
+            _cfg = _json.load(_f)
+        for _k, _v in _cfg.items():
+            globals()[_k] = tuple(_v) if isinstance(_v, list) else _v
+    elif not _os.environ.get("BOT_CALIBRANDO"):  # o calibrar.py é quem cria o arquivo
+        print("AVISO: coords_windows.json não encontrado — rode 'python calibrar.py' antes do bot.")
+
+# Percentuais de cura (usados em mix_vida_mana.manage_supplies)
+LIFE_POTION_PCT = 50  # vida abaixo disso → poção de vida
+EXURA_PCT = 80        # vida abaixo disso → exura
+MANA_PCT = 40         # mana abaixo disso → poção de mana
+
+# Cura escolhida na aba Ajustes (só informativo: o bot usa a hotkey de cada uma)
+CURA_VOCACAO = "knight"
+CURA_EMERG_ITEM = "Health Potion"           # vida crítica  → KEY_LIFE
+CURA_MAGIA_ITEM = "Wound Cleansing"         # vida baixa    → KEY_EXURA
+CURA_MANA_ITEM = "Mana Potion"              # mana baixa    → KEY_MANA
+CURA_EMERG_ON = True
+CURA_MAGIA_ON = True
+CURA_MANA_ON = True
+
+# =============================================================
+#  AJUSTES — ajustes.json (gravado pela aba "Ajustes" da interface)
+# =============================================================
+#  Vale em qualquer sistema e vem por último: hotkeys do jogo, teclas
+#  de controle e percentuais de cura escolhidos na interface.
+AJUSTES_KEYS = ("KEY_ATK", "KEY_LOOT", "KEY_EXURA", "KEY_LIFE", "KEY_MANA", "KEY_ROPE", "KEY_SHOVEL",
+                "START_KEY", "PAUSE_KEY", "STOP_KEY", "CAPTURE_KEY", "SKIP_KEY",
+                "LIFE_POTION_PCT", "EXURA_PCT", "MANA_PCT", "MAX_WAYPOINT_ATTEMPTS",
+                "CURA_VOCACAO", "CURA_EMERG_ITEM", "CURA_MAGIA_ITEM", "CURA_MANA_ITEM",
+                "CURA_EMERG_ON", "CURA_MAGIA_ON", "CURA_MANA_ON")
+_aj_path = _os.path.join(_os.path.dirname(_os.path.abspath(__file__)), "ajustes.json")
+if _os.path.exists(_aj_path):
+    with open(_aj_path, "r", encoding="utf-8") as _f:
+        for _k, _v in _json.load(_f).items():
+            if _k in AJUSTES_KEYS:
+                globals()[_k] = _v

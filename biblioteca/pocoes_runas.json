@@ -1,0 +1,976 @@
+{
+ "fonte": "TibiaWiki BR — https://www.tibiawiki.com.br (conteúdo da comunidade, CC BY-SA)",
+ "baixado_em": "2026-10-03",
+ "total": 62,
+ "itens": [
+  {
+   "nome": "Lifefluid",
+   "tipo": "fluido",
+   "efeito": "Recupera HP.",
+   "palavras": "",
+   "level": null,
+   "magic_level": null,
+   "quem_faz": [],
+   "mana_para_fazer": null,
+   "peso": 180,
+   "preco_npc": 0,
+   "versao": "7.4",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Lifefluid"
+  },
+  {
+   "nome": "Manafluid",
+   "tipo": "fluido",
+   "efeito": "Restaura de 50 a 150 de mana por vial.",
+   "palavras": "",
+   "level": null,
+   "magic_level": null,
+   "quem_faz": [],
+   "mana_para_fazer": null,
+   "peso": 180,
+   "preco_npc": null,
+   "versao": "7.4",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Manafluid"
+  },
+  {
+   "nome": "Antidote Potion",
+   "tipo": "poção",
+   "efeito": "Cura poison.",
+   "palavras": "",
+   "level": null,
+   "magic_level": null,
+   "quem_faz": [],
+   "mana_para_fazer": null,
+   "peso": 265,
+   "preco_npc": 50,
+   "versao": "8.2",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Antidote_Potion"
+  },
+  {
+   "nome": "Berserk Potion",
+   "tipo": "poção",
+   "efeito": "Concede um bônus de +5 em todos os Melee skills e uma penalidade de −10 em Shielding por 10 minutos.",
+   "palavras": "",
+   "level": null,
+   "magic_level": null,
+   "quem_faz": [],
+   "mana_para_fazer": null,
+   "peso": 290,
+   "preco_npc": null,
+   "versao": "8.0",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Berserk_Potion"
+  },
+  {
+   "nome": "Bullseye Potion",
+   "tipo": "poção",
+   "efeito": "Dá +5 de distance skill e -10 shielding por 10 minutos.",
+   "palavras": "",
+   "level": null,
+   "magic_level": null,
+   "quem_faz": [],
+   "mana_para_fazer": null,
+   "peso": 290,
+   "preco_npc": null,
+   "versao": "8.0",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Bullseye_Potion"
+  },
+  {
+   "nome": "Distilled Superior Mana Potion",
+   "tipo": "poção",
+   "efeito": "Regenera mana quando usado.",
+   "palavras": "",
+   "level": 130,
+   "magic_level": null,
+   "quem_faz": [],
+   "mana_para_fazer": null,
+   "peso": 310,
+   "preco_npc": 381,
+   "versao": "15.25.3a4a52",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Distilled_Superior_Mana_Potion"
+  },
+  {
+   "nome": "Distilled Ultimate Mana Potion",
+   "tipo": "poção",
+   "efeito": "Regenera mana quando usado.",
+   "palavras": "",
+   "level": 200,
+   "magic_level": null,
+   "quem_faz": [],
+   "mana_para_fazer": null,
+   "peso": 310,
+   "preco_npc": 732,
+   "versao": "15.25.3a4a52",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Distilled_Ultimate_Mana_Potion"
+  },
+  {
+   "nome": "Glooth Potion",
+   "tipo": "poção",
+   "efeito": "",
+   "palavras": "",
+   "level": null,
+   "magic_level": null,
+   "quem_faz": [],
+   "mana_para_fazer": null,
+   "peso": 400,
+   "preco_npc": null,
+   "versao": "10.50",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Glooth_Potion"
+  },
+  {
+   "nome": "Great Health Potion",
+   "tipo": "poção",
+   "efeito": "Regenera HP quando usado.",
+   "palavras": "",
+   "level": 80,
+   "magic_level": null,
+   "quem_faz": [],
+   "mana_para_fazer": null,
+   "peso": 310,
+   "preco_npc": 225,
+   "versao": "8.1",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Great_Health_Potion"
+  },
+  {
+   "nome": "Great Mana Potion",
+   "tipo": "poção",
+   "efeito": "Regenera mana quando usado.",
+   "palavras": "",
+   "level": 80,
+   "magic_level": null,
+   "quem_faz": [],
+   "mana_para_fazer": null,
+   "peso": 310,
+   "preco_npc": 158,
+   "versao": "8.1",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Great_Mana_Potion"
+  },
+  {
+   "nome": "Great Spirit Potion",
+   "tipo": "poção",
+   "efeito": "Regenera vida e mana quando usado.",
+   "palavras": "",
+   "level": 80,
+   "magic_level": null,
+   "quem_faz": [],
+   "mana_para_fazer": null,
+   "peso": 310,
+   "preco_npc": 254,
+   "versao": "8.11",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Great_Spirit_Potion"
+  },
+  {
+   "nome": "Health Potion",
+   "tipo": "poção",
+   "efeito": "Regenera HP quando usado.",
+   "palavras": "",
+   "level": null,
+   "magic_level": null,
+   "quem_faz": [],
+   "mana_para_fazer": null,
+   "peso": 270,
+   "preco_npc": 50,
+   "versao": "8.1",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Health_Potion"
+  },
+  {
+   "nome": "Interdimensional Potion",
+   "tipo": "poção",
+   "efeito": "Use para beber.",
+   "palavras": "",
+   "level": null,
+   "magic_level": null,
+   "quem_faz": [],
+   "mana_para_fazer": null,
+   "peso": 180,
+   "preco_npc": null,
+   "versao": "8.6",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Interdimensional_Potion"
+  },
+  {
+   "nome": "Magic Shield Potion",
+   "tipo": "poção",
+   "efeito": "Ativa ou renova o Magic Shield de seu usuário ao ser consumido.",
+   "palavras": "",
+   "level": 14,
+   "magic_level": null,
+   "quem_faz": [],
+   "mana_para_fazer": null,
+   "peso": 320,
+   "preco_npc": 1,
+   "versao": "12.55.10451",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Magic_Shield_Potion"
+  },
+  {
+   "nome": "Mana Potion",
+   "tipo": "poção",
+   "efeito": "Regenera mana quando usado.",
+   "palavras": "",
+   "level": null,
+   "magic_level": null,
+   "quem_faz": [],
+   "mana_para_fazer": null,
+   "peso": 270,
+   "preco_npc": 56,
+   "versao": "8.1",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Mana_Potion"
+  },
+  {
+   "nome": "Mastermind Potion",
+   "tipo": "poção",
+   "efeito": "Concede Magic Level +3 por 10 minutos.",
+   "palavras": "",
+   "level": null,
+   "magic_level": null,
+   "quem_faz": [],
+   "mana_para_fazer": null,
+   "peso": 290,
+   "preco_npc": null,
+   "versao": "8.0",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Mastermind_Potion"
+  },
+  {
+   "nome": "Small Health Potion",
+   "tipo": "poção",
+   "efeito": "Recupera HP quando usado.",
+   "palavras": "",
+   "level": null,
+   "magic_level": null,
+   "quem_faz": [],
+   "mana_para_fazer": null,
+   "peso": 265,
+   "preco_npc": 20,
+   "versao": "8.2",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Small_Health_Potion"
+  },
+  {
+   "nome": "Strong Health Potion",
+   "tipo": "poção",
+   "efeito": "Regenera HP quando usado.",
+   "palavras": "",
+   "level": 50,
+   "magic_level": null,
+   "quem_faz": [],
+   "mana_para_fazer": null,
+   "peso": 290,
+   "preco_npc": 115,
+   "versao": "8.1",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Strong_Health_Potion"
+  },
+  {
+   "nome": "Strong Mana Potion",
+   "tipo": "poção",
+   "efeito": "Regenera mana quando usado.",
+   "palavras": "",
+   "level": 50,
+   "magic_level": null,
+   "quem_faz": [],
+   "mana_para_fazer": null,
+   "peso": 290,
+   "preco_npc": 108,
+   "versao": "8.1",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Strong_Mana_Potion"
+  },
+  {
+   "nome": "Superior Mana Potion",
+   "tipo": "poção",
+   "efeito": "Regenera mana quando usado.",
+   "palavras": "",
+   "level": 100,
+   "magic_level": null,
+   "quem_faz": [],
+   "mana_para_fazer": null,
+   "peso": 310,
+   "preco_npc": 254,
+   "versao": "15.25.3a4a52",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Superior_Mana_Potion"
+  },
+  {
+   "nome": "Supreme Health Potion",
+   "tipo": "poção",
+   "efeito": "Regenera HP quando usado.",
+   "palavras": "",
+   "level": 200,
+   "magic_level": null,
+   "quem_faz": [],
+   "mana_para_fazer": null,
+   "peso": 350,
+   "preco_npc": 650,
+   "versao": "10.92",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Supreme_Health_Potion"
+  },
+  {
+   "nome": "Transcendence Potion",
+   "tipo": "poção",
+   "efeito": "Concede um bônus de +4 em Fist Fighting por 10 minutos após o uso.",
+   "palavras": "",
+   "level": null,
+   "magic_level": null,
+   "quem_faz": [],
+   "mana_para_fazer": null,
+   "peso": 290,
+   "preco_npc": null,
+   "versao": "15.00.249ccc",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Transcendence_Potion"
+  },
+  {
+   "nome": "Ultimate Health Potion",
+   "tipo": "poção",
+   "efeito": "Regenera HP quando usado.",
+   "palavras": "",
+   "level": 130,
+   "magic_level": null,
+   "quem_faz": [],
+   "mana_para_fazer": null,
+   "peso": 310,
+   "preco_npc": 379,
+   "versao": "8.11",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Ultimate_Health_Potion"
+  },
+  {
+   "nome": "Ultimate Mana Potion",
+   "tipo": "poção",
+   "efeito": "Regenera mana quando usado.",
+   "palavras": "",
+   "level": 130,
+   "magic_level": null,
+   "quem_faz": [],
+   "mana_para_fazer": null,
+   "peso": 310,
+   "preco_npc": 488,
+   "versao": "10.92",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Ultimate_Mana_Potion"
+  },
+  {
+   "nome": "Ultimate Spirit Potion",
+   "tipo": "poção",
+   "efeito": "Regenera vida e mana quando usado.",
+   "palavras": "",
+   "level": 130,
+   "magic_level": null,
+   "quem_faz": [],
+   "mana_para_fazer": null,
+   "peso": 310,
+   "preco_npc": 488,
+   "versao": "10.92",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Ultimate_Spirit_Potion"
+  },
+  {
+   "nome": "Animate Dead Rune",
+   "tipo": "runa",
+   "efeito": "Ao utilizá-la em um corpo morto, você terá 1 skeleton sob seu controle (exceto se você já tiver duas criaturas sumonadas).",
+   "palavras": "adana mort",
+   "level": 27,
+   "magic_level": 4,
+   "quem_faz": [
+    "Druids",
+    "Sorcerers."
+   ],
+   "mana_para_fazer": 600,
+   "peso": 210,
+   "preco_npc": 375,
+   "versao": "6.4",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Animate_Dead_Rune"
+  },
+  {
+   "nome": "Avalanche Rune",
+   "tipo": "runa",
+   "efeito": "Arquivo:Freezing Flash Icon.gif Dano de Gelo em uma área de até 37 Sqms. Equivale a Great Fireball.",
+   "palavras": "adori mas frigo",
+   "level": 30,
+   "magic_level": 4,
+   "quem_faz": [
+    "Druids"
+   ],
+   "mana_para_fazer": 530,
+   "peso": 52,
+   "preco_npc": 64,
+   "versao": "8.1",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Avalanche_Rune"
+  },
+  {
+   "nome": "Chameleon Rune",
+   "tipo": "runa",
+   "efeito": "Transforma você no item no qual utilizou a runa por 200 segundos (3 minutos e 20 segundos). Não pode ser usada em Criaturas, NPCs, em outro jogador ou objetos.",
+   "palavras": "adevo ina",
+   "level": 27,
+   "magic_level": 4,
+   "quem_faz": [
+    "Druids"
+   ],
+   "mana_para_fazer": 600,
+   "peso": 210,
+   "preco_npc": 210,
+   "versao": "",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Chameleon_Rune"
+  },
+  {
+   "nome": "Convince Creature Rune",
+   "tipo": "runa",
+   "efeito": "Convence uma criatura a ajudá-lo. (A maioria das criaturas que podem ser sumonadas também podem ser convencidas, com exceção de Monks. Veja este artigo para maiores informações).",
+   "palavras": "adeta sio",
+   "level": 16,
+   "magic_level": 5,
+   "quem_faz": [
+    "Druids"
+   ],
+   "mana_para_fazer": 200,
+   "peso": 210,
+   "preco_npc": 80,
+   "versao": "",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Convince_Creature_Rune"
+  },
+  {
+   "nome": "Cure Poison Rune",
+   "tipo": "runa",
+   "efeito": "Cura envenenamento.",
+   "palavras": "adana pox",
+   "level": 15,
+   "magic_level": 0,
+   "quem_faz": [
+    "Druids"
+   ],
+   "mana_para_fazer": 200,
+   "peso": 210,
+   "preco_npc": 65,
+   "versao": "",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Cure_Poison_Rune"
+  },
+  {
+   "nome": "Destroy Field Rune",
+   "tipo": "runa",
+   "efeito": "Destrói campos de fogo, veneno e energia, a qualquer distância, desde que não exista nada bloqueando o caminho.",
+   "palavras": "adito grav",
+   "level": 17,
+   "magic_level": 3,
+   "quem_faz": [
+    "Druids",
+    "Sorcerers",
+    "Paladins",
+    "Monks"
+   ],
+   "mana_para_fazer": 120,
+   "peso": 70,
+   "preco_npc": 15,
+   "versao": "",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Destroy_Field_Rune"
+  },
+  {
+   "nome": "Disintegrate Rune",
+   "tipo": "runa",
+   "efeito": "Desintegra objetos e corpos de criaturas que podem ser movimentados.",
+   "palavras": "adito tera",
+   "level": 21,
+   "magic_level": 4,
+   "quem_faz": [
+    "Druids",
+    "Sorcerers",
+    "Paladins",
+    "Monks"
+   ],
+   "mana_para_fazer": 200,
+   "peso": 70,
+   "preco_npc": 26,
+   "versao": "6.4",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Disintegrate_Rune"
+  },
+  {
+   "nome": "Energy Bomb Rune",
+   "tipo": "runa",
+   "efeito": "Arquivo:Electrified Flash Icon.gif Cria uma barreira 3x3 de Energy Fields.",
+   "palavras": "adevo mas vis",
+   "level": 37,
+   "magic_level": 10,
+   "quem_faz": [
+    "Sorcerers"
+   ],
+   "mana_para_fazer": 880,
+   "peso": 105,
+   "preco_npc": 203,
+   "versao": "6.4",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Energy_Bomb_Rune"
+  },
+  {
+   "nome": "Energy Field Rune",
+   "tipo": "runa",
+   "efeito": "Arquivo:Electrified Flash Icon.gif Cria um Energy Field.",
+   "palavras": "adevo grav vis",
+   "level": 18,
+   "magic_level": 3,
+   "quem_faz": [
+    "Druids",
+    "Sorcerers."
+   ],
+   "mana_para_fazer": 320,
+   "peso": 70,
+   "preco_npc": 38,
+   "versao": "",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Energy_Field_Rune"
+  },
+  {
+   "nome": "Energy Wall Rune",
+   "tipo": "runa",
+   "efeito": "Arquivo:Electrified Flash Icon.gif Cria uma barreira de 1x7 de Energy Fields.",
+   "palavras": "adevo mas grav vis",
+   "level": 41,
+   "magic_level": 9,
+   "quem_faz": [
+    "Druids",
+    "Sorcerers"
+   ],
+   "mana_para_fazer": 1000,
+   "peso": 52,
+   "preco_npc": 85,
+   "versao": "",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Energy_Wall_Rune"
+  },
+  {
+   "nome": "Envenom Rune",
+   "tipo": "runa",
+   "efeito": "Arquivo:Poisoned Flash Icon.gif Causa envenenamento no alvo.",
+   "palavras": "adevo res pox",
+   "level": 0,
+   "magic_level": 4,
+   "quem_faz": [
+    "Druids"
+   ],
+   "mana_para_fazer": 400,
+   "peso": null,
+   "preco_npc": 130,
+   "versao": "",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Envenom_Rune"
+  },
+  {
+   "nome": "Explosion Rune",
+   "tipo": "runa",
+   "efeito": "Arquivo:Physical Damage Icon.gif Dano físico em área atingindo 9 sqm's.",
+   "palavras": "adevo mas hur",
+   "level": 31,
+   "magic_level": 6,
+   "quem_faz": [
+    "Druids",
+    "Sorcerers."
+   ],
+   "mana_para_fazer": 570,
+   "peso": 35,
+   "preco_npc": 31,
+   "versao": "",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Explosion_Rune"
+  },
+  {
+   "nome": "Fire Bomb Rune",
+   "tipo": "runa",
+   "efeito": "Arquivo:Burning Flash Icon.gif Cria uma barreira 3x3 de Fire Fields.",
+   "palavras": "adevo mas flam",
+   "level": 27,
+   "magic_level": 5,
+   "quem_faz": [
+    "Druids",
+    "Sorcerers."
+   ],
+   "mana_para_fazer": 600,
+   "peso": 105,
+   "preco_npc": 147,
+   "versao": "",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Fire_Bomb_Rune"
+  },
+  {
+   "nome": "Fire Field Rune",
+   "tipo": "runa",
+   "efeito": "Arquivo:Burning Flash Icon.gif Cria um Fire Field.",
+   "palavras": "adevo grav flam",
+   "level": 15,
+   "magic_level": 1,
+   "quem_faz": [
+    "Druids",
+    "Sorcerers."
+   ],
+   "mana_para_fazer": 240,
+   "peso": 70,
+   "preco_npc": 28,
+   "versao": "",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Fire_Field_Rune"
+  },
+  {
+   "nome": "Fire Wall Rune",
+   "tipo": "runa",
+   "efeito": "Arquivo:Burning Flash Icon.gif Cria uma barreira 1x5 de Fire Fields.",
+   "palavras": "adevo mas grav flam",
+   "level": 33,
+   "magic_level": 6,
+   "quem_faz": [
+    "Druids",
+    "Sorcerers."
+   ],
+   "mana_para_fazer": 780,
+   "peso": 52,
+   "preco_npc": 61,
+   "versao": "",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Fire_Wall_Rune"
+  },
+  {
+   "nome": "Fireball Rune",
+   "tipo": "runa",
+   "efeito": "Arquivo:Burning Flash Icon.gif Dano fogo em um alvo. Equivale a Icicle.",
+   "palavras": "adori flam",
+   "level": 27,
+   "magic_level": 4,
+   "quem_faz": [
+    "Sorcerers"
+   ],
+   "mana_para_fazer": 460,
+   "peso": 42,
+   "preco_npc": 30,
+   "versao": "",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Fireball_Rune"
+  },
+  {
+   "nome": "Great Fireball Rune",
+   "tipo": "runa",
+   "efeito": "Arquivo:Burning Flash Icon.gif Dano fogo em uma área de até 37 Sqms. Equivale a Avalanche.",
+   "palavras": "adori mas flam",
+   "level": 30,
+   "magic_level": 4,
+   "quem_faz": [
+    "Sorcerers"
+   ],
+   "mana_para_fazer": 530,
+   "peso": 52,
+   "preco_npc": 64,
+   "versao": "",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Great_Fireball_Rune"
+  },
+  {
+   "nome": "Heavy Magic Missile Rune",
+   "tipo": "runa",
+   "efeito": "Arquivo:Electrified Flash Icon.gif Dano de energia em um alvo. Equivale a Stalagmite Rune.",
+   "palavras": "adori vis",
+   "level": 25,
+   "magic_level": 3,
+   "quem_faz": [
+    "Druids",
+    "Sorcerers."
+   ],
+   "mana_para_fazer": 350,
+   "peso": 21,
+   "preco_npc": 12,
+   "versao": "",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Heavy_Magic_Missile_Rune"
+  },
+  {
+   "nome": "Holy Missile Rune",
+   "tipo": "runa",
+   "efeito": "Arquivo:Dazzled Flash Icon.gif Dano Sagrado em um alvo.",
+   "palavras": "adori san",
+   "level": 27,
+   "magic_level": 4,
+   "quem_faz": [
+    "Paladins"
+   ],
+   "mana_para_fazer": 300,
+   "peso": 42,
+   "preco_npc": 16,
+   "versao": "8.4",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Holy_Missile_Rune"
+  },
+  {
+   "nome": "Icicle Rune",
+   "tipo": "runa",
+   "efeito": "Arquivo:Freezing Flash Icon.gif Dano gelo em um alvo. Equivale a Fireball.",
+   "palavras": "adori frigo",
+   "level": 28,
+   "magic_level": 4,
+   "quem_faz": [
+    "Druids"
+   ],
+   "mana_para_fazer": 460,
+   "peso": 42,
+   "preco_npc": 30,
+   "versao": "8.1",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Icicle_Rune"
+  },
+  {
+   "nome": "Intense Healing Rune",
+   "tipo": "runa",
+   "efeito": "Cura o próprio jogador. Não pode ser utilizada em outros personagens. Mais eficaz que a magia Light Healing.",
+   "palavras": "adura gran",
+   "level": 15,
+   "magic_level": 1,
+   "quem_faz": [
+    "Druids"
+   ],
+   "mana_para_fazer": 120,
+   "peso": 210,
+   "preco_npc": 95,
+   "versao": "",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Intense_Healing_Rune"
+  },
+  {
+   "nome": "Light Magic Missile Rune",
+   "tipo": "runa",
+   "efeito": "Arquivo:Electrified Flash Icon.gif Dano de energia em um alvo.",
+   "palavras": "adori min vis",
+   "level": 15,
+   "magic_level": 0,
+   "quem_faz": [
+    "Druids",
+    "Sorcerers."
+   ],
+   "mana_para_fazer": 120,
+   "peso": 21,
+   "preco_npc": 4,
+   "versao": "",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Light_Magic_Missile_Rune"
+  },
+  {
+   "nome": "Light Stone Shower Rune",
+   "tipo": "runa",
+   "efeito": "Arquivo:Poisoned Flash Icon.gif Dano terra em uma área de 3x3 Sqms.",
+   "palavras": "adori infir mas tera",
+   "level": 1,
+   "magic_level": 0,
+   "quem_faz": [
+    "Paladins",
+    "Sorcerers",
+    "Druids",
+    "Monks."
+   ],
+   "mana_para_fazer": 0,
+   "peso": 210,
+   "preco_npc": 25,
+   "versao": "10.55",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Light_Stone_Shower_Rune"
+  },
+  {
+   "nome": "Lightest Missile Rune",
+   "tipo": "runa",
+   "efeito": "Arquivo:Electrified Flash Icon.gif Dano de energia em um alvo.",
+   "palavras": "adori infir vis",
+   "level": 1,
+   "magic_level": 0,
+   "quem_faz": [
+    "Druids",
+    "Sorcerers."
+   ],
+   "mana_para_fazer": 0,
+   "peso": 210,
+   "preco_npc": 20,
+   "versao": "10.55",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Lightest_Missile_Rune"
+  },
+  {
+   "nome": "Magic Wall Rune",
+   "tipo": "runa",
+   "efeito": "Cria uma parede mágica temporária, indestrutível e impenetrável de 1 sqm.",
+   "palavras": "adevo grav tera",
+   "level": 32,
+   "magic_level": 9,
+   "quem_faz": [
+    "Sorcerers"
+   ],
+   "mana_para_fazer": 750,
+   "peso": 70,
+   "preco_npc": 116,
+   "versao": "6.4",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Magic_Wall_Rune"
+  },
+  {
+   "nome": "Paralyse Rune",
+   "tipo": "runa",
+   "efeito": "Arquivo:Slowed Flash Icon.gif Paralisa o alvo.",
+   "palavras": "adana ani",
+   "level": 54,
+   "magic_level": 18,
+   "quem_faz": [
+    "Druids"
+   ],
+   "mana_para_fazer": 1400,
+   "peso": 210,
+   "preco_npc": 700,
+   "versao": "6.4",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Paralyse_Rune"
+  },
+  {
+   "nome": "Poison Bomb Rune",
+   "tipo": "runa",
+   "efeito": "Arquivo:Poisoned Flash Icon.gif Cria uma barreira 3x3 de Poison Gases.",
+   "palavras": "adevo mas pox",
+   "level": 25,
+   "magic_level": 4,
+   "quem_faz": [
+    "Druids"
+   ],
+   "mana_para_fazer": 520,
+   "peso": 105,
+   "preco_npc": 85,
+   "versao": "6.6",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Poison_Bomb_Rune"
+  },
+  {
+   "nome": "Poison Field Rune",
+   "tipo": "runa",
+   "efeito": "Arquivo:Poisoned Flash Icon.gif Cria um Poison Gas.",
+   "palavras": "adevo grav pox",
+   "level": 14,
+   "magic_level": 0,
+   "quem_faz": [
+    "Druids",
+    "Sorcerers."
+   ],
+   "mana_para_fazer": 200,
+   "peso": 70,
+   "preco_npc": 21,
+   "versao": "",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Poison_Field_Rune"
+  },
+  {
+   "nome": "Poison Wall Rune",
+   "tipo": "runa",
+   "efeito": "Arquivo:Poisoned Flash Icon.gif Cria uma barreira 1x5 de Poison Gases.",
+   "palavras": "adevo mas grav pox",
+   "level": 29,
+   "magic_level": 5,
+   "quem_faz": [
+    "Druids",
+    "Sorcerers."
+   ],
+   "mana_para_fazer": 640,
+   "peso": 52,
+   "preco_npc": 52,
+   "versao": "",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Poison_Wall_Rune"
+  },
+  {
+   "nome": "Practise Magic Missile Rune",
+   "tipo": "runa",
+   "efeito": "Arquivo:Electrified Flash Icon.gif Dano de energia em um alvo.",
+   "palavras": "adori dis min vis",
+   "level": 1,
+   "magic_level": 0,
+   "quem_faz": [
+    "Knights",
+    "Paladins",
+    "Sorcerers",
+    "Druids",
+    "Monks."
+   ],
+   "mana_para_fazer": 5,
+   "peso": 21,
+   "preco_npc": null,
+   "versao": "9.8",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Practise_Magic_Missile_Rune"
+  },
+  {
+   "nome": "Soulfire Rune",
+   "tipo": "runa",
+   "efeito": "Arquivo:Burning Flash Icon.gif Adiciona efeito Burning ao alvo.",
+   "palavras": "adevo res flam",
+   "level": 27,
+   "magic_level": 7,
+   "quem_faz": [
+    "Druids",
+    "Sorcerers."
+   ],
+   "mana_para_fazer": 420,
+   "peso": 70,
+   "preco_npc": 46,
+   "versao": "6.4",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Soulfire_Rune"
+  },
+  {
+   "nome": "Stalagmite Rune",
+   "tipo": "runa",
+   "efeito": "Arquivo:Poisoned Flash Icon.gif Dano terra em um alvo. Equivale a Heavy Magic Missile Rune.",
+   "palavras": "adori tera",
+   "level": 24,
+   "magic_level": 3,
+   "quem_faz": [
+    "Druids",
+    "Sorcerers."
+   ],
+   "mana_para_fazer": 350,
+   "peso": 21,
+   "preco_npc": 12,
+   "versao": "8.1",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Stalagmite_Rune"
+  },
+  {
+   "nome": "Stone Shower Rune",
+   "tipo": "runa",
+   "efeito": "Arquivo:Poisoned Flash Icon.gif Dano terra em uma área de até 37 Sqms. Equivale a Thunderstorm Rune.",
+   "palavras": "adori mas tera",
+   "level": 28,
+   "magic_level": 4,
+   "quem_faz": [
+    "Druids"
+   ],
+   "mana_para_fazer": 430,
+   "peso": 52,
+   "preco_npc": 41,
+   "versao": "8.1",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Stone_Shower_Rune"
+  },
+  {
+   "nome": "Sudden Death Rune",
+   "tipo": "runa",
+   "efeito": "Arquivo:Cursed Flash Icon.gif Dano Death em um alvo.",
+   "palavras": "adori gran mort",
+   "level": 45,
+   "magic_level": 15,
+   "quem_faz": [
+    "Sorcerers"
+   ],
+   "mana_para_fazer": 985,
+   "peso": 70,
+   "preco_npc": 162,
+   "versao": "",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Sudden_Death_Rune"
+  },
+  {
+   "nome": "Thunderstorm Rune",
+   "tipo": "runa",
+   "efeito": "Arquivo:Electrified Flash Icon.gif Dano de energia em uma área de até 37 Sqms. Equivalente a Stone Shower Rune.",
+   "palavras": "adori mas vis",
+   "level": 28,
+   "magic_level": 4,
+   "quem_faz": [
+    "Sorcereres"
+   ],
+   "mana_para_fazer": 430,
+   "peso": 52,
+   "preco_npc": 52,
+   "versao": "8.1",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Thunderstorm_Rune"
+  },
+  {
+   "nome": "Ultimate Healing Rune",
+   "tipo": "runa",
+   "efeito": "Cura o próprio jogador. Não pode ser utilizada em outros personagens. Mais eficaz que a Intense Healing Rune.",
+   "palavras": "adura vita",
+   "level": 24,
+   "magic_level": 4,
+   "quem_faz": [
+    "Druids"
+   ],
+   "mana_para_fazer": 400,
+   "peso": 210,
+   "preco_npc": 175,
+   "versao": "",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Ultimate_Healing_Rune"
+  },
+  {
+   "nome": "Wild Growth Rune",
+   "tipo": "runa",
+   "efeito": "Cria uma parede viva temporária e indestrutível de 1 sqm.",
+   "palavras": "adevo grav vita",
+   "level": 27,
+   "magic_level": 8,
+   "quem_faz": [
+    "Elder Druids"
+   ],
+   "mana_para_fazer": 600,
+   "peso": 105,
+   "preco_npc": 160,
+   "versao": "6.6",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Wild_Growth_Rune"
+  }
+ ]
+}

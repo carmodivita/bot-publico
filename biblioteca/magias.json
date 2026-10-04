@@ -1,0 +1,3093 @@
+{
+ "fonte": "TibiaWiki BR — https://www.tibiawiki.com.br (conteúdo da comunidade, CC BY-SA)",
+ "baixado_em": "2026-10-03",
+ "total": 178,
+ "itens": [
+  {
+   "nome": "Annihilation",
+   "palavras": "exori gran ico",
+   "tipo": "Ataque",
+   "elemento": "Físico",
+   "mana": 300,
+   "level": 110,
+   "premium": true,
+   "vocacoes": [
+    "Knights"
+   ],
+   "cooldown_s": 30,
+   "cooldown_grupo_s": 2,
+   "efeito": "Arquivo:Physical_Damage_Icon.gif Acerta o alvo causando dano físico. Distância de 1 sqm. Caso esteja equipado com uma arma com imbuement elemental, parte do dano da magia será dano mágico.",
+   "versao": "8.7",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Annihilation"
+  },
+  {
+   "nome": "Apprentice's Strike",
+   "palavras": "exori min flam",
+   "tipo": "Ataque",
+   "elemento": "Fire",
+   "mana": 6,
+   "level": 6,
+   "premium": false,
+   "vocacoes": [
+    "Druids",
+    "Sorcerers"
+   ],
+   "cooldown_s": 2,
+   "cooldown_grupo_s": 2,
+   "efeito": "Arquivo:Burning Flash Icon.gif Acerta o alvo causando dano de fogo.",
+   "versao": "9.8",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Apprentice%27s_Strike"
+  },
+  {
+   "nome": "Arrow Call",
+   "palavras": "exevo infir con",
+   "tipo": "Suporte",
+   "elemento": "",
+   "mana": 30,
+   "level": 1,
+   "premium": false,
+   "vocacoes": [
+    "Paladins"
+   ],
+   "cooldown_s": 2,
+   "cooldown_grupo_s": 2,
+   "efeito": "Conjura 30 Simple Arrows por 1 Soul Point.",
+   "versao": "10.55",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Arrow_Call"
+  },
+  {
+   "nome": "Aura of Exposed Weakness",
+   "palavras": "exori moe tempo",
+   "tipo": "Stance",
+   "elemento": "",
+   "mana": 1500,
+   "level": 175,
+   "premium": true,
+   "vocacoes": [
+    "Sorcerers"
+   ],
+   "cooldown_s": 30,
+   "cooldown_grupo_s": 2,
+   "efeito": "Ativa uma stance que faz com que todos os ataques, magias e runas apliquem automaticamente o efeito de vulnerabilidade elemental nos inimigos atingidos, aumentando o dano elemental recebido em 8%.",
+   "versao": "15.25.3a4a52",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Aura_of_Exposed_Weakness"
+  },
+  {
+   "nome": "Aura of Sapped Strength",
+   "palavras": "exori kor tempo",
+   "tipo": "Stance",
+   "elemento": "",
+   "mana": 1500,
+   "level": 175,
+   "premium": true,
+   "vocacoes": [
+    "Sorcerers"
+   ],
+   "cooldown_s": 30,
+   "cooldown_grupo_s": 2,
+   "efeito": "Ativa uma stance que faz com que todos os ataques, magias e runas apliquem automaticamente o efeito de redução de dano nos inimigos atingidos, reduzindo o dano causado por eles em 10%.",
+   "versao": "15.25.3a4a52",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Aura_of_Sapped_Strength"
+  },
+  {
+   "nome": "Avatar of Balance",
+   "palavras": "uteta res tio",
+   "tipo": "Suporte",
+   "elemento": "",
+   "mana": 1200,
+   "level": 300,
+   "premium": true,
+   "vocacoes": [
+    "Monks"
+   ],
+   "cooldown_s": 7200,
+   "cooldown_grupo_s": 2,
+   "efeito": "Transforma o jogador em um avatar poderoso que reduz o dano recebido e aumenta o dano causado.",
+   "versao": "15.00.249ccc",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Avatar_of_Balance"
+  },
+  {
+   "nome": "Avatar of Light",
+   "palavras": "uteta res sac",
+   "tipo": "Suporte",
+   "elemento": "",
+   "mana": 1500,
+   "level": 300,
+   "premium": true,
+   "vocacoes": [
+    "Paladins"
+   ],
+   "cooldown_s": 7200,
+   "cooldown_grupo_s": 2,
+   "efeito": "Transforma o jogador em um avatar poderoso que reduz o dano recebido e aumenta o dano causado.",
+   "versao": "13.10.12852",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Avatar_of_Light"
+  },
+  {
+   "nome": "Avatar of Nature",
+   "palavras": "uteta res dru",
+   "tipo": "Suporte",
+   "elemento": "",
+   "mana": 2200,
+   "level": 300,
+   "premium": true,
+   "vocacoes": [
+    "Druids"
+   ],
+   "cooldown_s": 7200,
+   "cooldown_grupo_s": 2,
+   "efeito": "Transforma o jogador em um avatar poderoso que reduz o dano recebido e aumenta o dano causado.",
+   "versao": "13.10.12852",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Avatar_of_Nature"
+  },
+  {
+   "nome": "Avatar of Steel",
+   "palavras": "uteta res eq",
+   "tipo": "Suporte",
+   "elemento": "",
+   "mana": 800,
+   "level": 300,
+   "premium": true,
+   "vocacoes": [
+    "Knights"
+   ],
+   "cooldown_s": 7200,
+   "cooldown_grupo_s": 2,
+   "efeito": "Transforma o jogador em um avatar poderoso que reduz o dano recebido e aumenta o dano causado.",
+   "versao": "13.10.12852",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Avatar_of_Steel"
+  },
+  {
+   "nome": "Avatar of Storm",
+   "palavras": "uteta res ven",
+   "tipo": "Suporte",
+   "elemento": "",
+   "mana": 2200,
+   "level": 300,
+   "premium": true,
+   "vocacoes": [
+    "Sorcerers"
+   ],
+   "cooldown_s": 7200,
+   "cooldown_grupo_s": 2,
+   "efeito": "Transforma o jogador em um avatar poderoso que reduz o dano recebido e aumenta o dano causado.",
+   "versao": "13.10.12852",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Avatar_of_Storm"
+  },
+  {
+   "nome": "Balanced Brawl",
+   "palavras": "exori mas res",
+   "tipo": "Suporte",
+   "elemento": "Physical",
+   "mana": 80,
+   "level": 175,
+   "premium": true,
+   "vocacoes": [
+    "Monks"
+   ],
+   "cooldown_s": 10,
+   "cooldown_grupo_s": 2,
+   "efeito": "Feitiço de longo alcance que transforma o alvo e os inimigos numa área em redor do alvo em lutadores corpo a corpo. Não pode ser usada ao enfrentar alguns bosses de alavanca.",
+   "versao": "15.00.249ccc",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Balanced_Brawl"
+  },
+  {
+   "nome": "Berserk",
+   "palavras": "exori",
+   "tipo": "Ataque",
+   "elemento": "Físico",
+   "mana": 125,
+   "level": 35,
+   "premium": true,
+   "vocacoes": [
+    "Knights"
+   ],
+   "cooldown_s": 4,
+   "cooldown_grupo_s": 2,
+   "efeito": "Arquivo:Physical Damage Icon.gif Acerta todos os oponentes que estiverem em um dos 9 sqms (contando o seu) em volta ou embaixo do knight que a usar, causando dano físico. Caso esteja equipado com uma arma encantada, parte do dano da magia será dano mágico.",
+   "versao": "6.4",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Berserk"
+  },
+  {
+   "nome": "Blood Rage",
+   "palavras": "utito tempo",
+   "tipo": "Suporte, Focus",
+   "elemento": "",
+   "mana": 20,
+   "level": 20,
+   "premium": true,
+   "vocacoes": [
+    "Knights"
+   ],
+   "cooldown_s": 2,
+   "cooldown_grupo_s": 2,
+   "efeito": "Arquivo:Strengthened Flash Icon.gif Aumenta em 25% o melee skill (fist fighting, axe fighting, club fighting e sword fighting) do usuário, enquanto zera a capacidade de bloquear criaturas (armaduras ainda reduzem o dano recebido). Além disso, aumenta todo o dano recebido pelo usuário em 15%. Remove todos os efeitos da magia Protector.",
+   "versao": "8.4",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Blood_Rage"
+  },
+  {
+   "nome": "Bruise Bane",
+   "palavras": "exura infir ico",
+   "tipo": "Cura",
+   "elemento": "Healing",
+   "mana": 10,
+   "level": 1,
+   "premium": false,
+   "vocacoes": [
+    "Knights"
+   ],
+   "cooldown_s": 2,
+   "cooldown_grupo_s": 2,
+   "efeito": "Cura em média 4 Hitpoints.",
+   "versao": "10.55",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Bruise_Bane"
+  },
+  {
+   "nome": "Brutal Strike",
+   "palavras": "exori ico",
+   "tipo": "Ataque",
+   "elemento": "Físico",
+   "mana": 30,
+   "level": 16,
+   "premium": false,
+   "vocacoes": [
+    "Knights"
+   ],
+   "cooldown_s": 6,
+   "cooldown_grupo_s": 2,
+   "efeito": "Arquivo:Physical_Damage_Icon.gif Acerta o alvo causando dano físico. Caso esteja equipado com uma arma encantada, parte do dano da magia será dano mágico.",
+   "versao": "8.7",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Brutal_Strike"
+  },
+  {
+   "nome": "Buzz",
+   "palavras": "exori infir vis",
+   "tipo": "Ataque",
+   "elemento": "Energy",
+   "mana": 6,
+   "level": 1,
+   "premium": false,
+   "vocacoes": [
+    "Sorcerers"
+   ],
+   "cooldown_s": 2,
+   "cooldown_grupo_s": 2,
+   "efeito": "Arquivo:Electrified Flash Icon.gif Acerta o alvo causando dano elétrico.",
+   "versao": "10.55",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Buzz"
+  },
+  {
+   "nome": "Cancel Invisibility",
+   "palavras": "exana ina",
+   "tipo": "Suporte",
+   "elemento": "",
+   "mana": 200,
+   "level": 26,
+   "premium": true,
+   "vocacoes": [
+    "Paladins"
+   ],
+   "cooldown_s": 2,
+   "cooldown_grupo_s": 2,
+   "efeito": "Fazem as criaturas/jogadores invisíveis se tornarem visíveis novamente. Essa magia tem a mesma área de efeito da magia Mass Healing.",
+   "versao": "6.6",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Cancel_Invisibility"
+  },
+  {
+   "nome": "Cancel Magic Shield",
+   "palavras": "exana vita",
+   "tipo": "Suporte",
+   "elemento": "",
+   "mana": 50,
+   "level": 14,
+   "premium": true,
+   "vocacoes": [
+    "Druids",
+    "Sorcerers"
+   ],
+   "cooldown_s": 2,
+   "cooldown_grupo_s": 2,
+   "efeito": "Ao ser utilizada remove o efeito de Magic Shield ativo do jogador.",
+   "versao": "12.55.10451",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Cancel_Magic_Shield"
+  },
+  {
+   "nome": "Chained Penance",
+   "palavras": "exori med pug",
+   "tipo": "Ataque",
+   "elemento": "Physical",
+   "mana": 180,
+   "level": 70,
+   "premium": true,
+   "vocacoes": [
+    "Monks"
+   ],
+   "cooldown_s": 4,
+   "cooldown_grupo_s": 2,
+   "efeito": "Causa dano em cadeia a até 6 criaturas (sem os perks da Wheel of Destiny). * A distância do salto em cadeia é 4 e os saltos priorizam os alvos mais próximos. * Aumenta sua harmonia ao usar a magia.",
+   "versao": "15.00.249ccc",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Chained_Penance"
+  },
+  {
+   "nome": "Challenge",
+   "palavras": "exeta res",
+   "tipo": "Suporte",
+   "elemento": "",
+   "mana": 40,
+   "level": 20,
+   "premium": true,
+   "vocacoes": [
+    "Knights"
+   ],
+   "cooldown_s": 2,
+   "cooldown_grupo_s": 2,
+   "efeito": "Chama a atenção das criaturas ao seu redor, fazendo com que passem a te atacar.",
+   "versao": "6.6",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Challenge"
+  },
+  {
+   "nome": "Charge",
+   "palavras": "utani tempo hur",
+   "tipo": "Suporte",
+   "elemento": "",
+   "mana": 100,
+   "level": 25,
+   "premium": true,
+   "vocacoes": [
+    "Knights"
+   ],
+   "cooldown_s": 2,
+   "cooldown_grupo_s": 2,
+   "efeito": "Arquivo:Strengthened Flash Icon.gif O seu personagem irá sofrer um aumento de 90% em sua velocidade por 5 segundos.",
+   "versao": "8.4",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Charge"
+  },
+  {
+   "nome": "Chill Out",
+   "palavras": "exevo infir frigo hur",
+   "tipo": "Ataque",
+   "elemento": "Ice",
+   "mana": 8,
+   "level": 1,
+   "premium": false,
+   "vocacoes": [
+    "Druids"
+   ],
+   "cooldown_s": 4,
+   "cooldown_grupo_s": 2,
+   "efeito": "Arquivo:Freezing Flash Icon.gif Atira uma wave de gelo em forma de cone na direção em que o player que usá-la estiver olhando.",
+   "versao": "10.55",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Chill_Out"
+  },
+  {
+   "nome": "Chivalrous Challenge",
+   "palavras": "exeta amp res",
+   "tipo": "Suporte",
+   "elemento": "",
+   "mana": 80,
+   "level": 150,
+   "premium": true,
+   "vocacoes": [
+    "Knights"
+   ],
+   "cooldown_s": 2,
+   "cooldown_grupo_s": 2,
+   "efeito": "Acorrenta até 4 criaturas que atacam à distância. Estes passam a atacar corpo-a-corpo por 12s e alvejam o usuário por 6s. Um ícone indica que a criatura está afetada por essa magia. Não pode ser usada ao enfrentar bosses de alavanca.",
+   "versao": "12.55.10451",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Chivalrous_Challenge"
+  },
+  {
+   "nome": "Conjure Arrow",
+   "palavras": "exevo con",
+   "tipo": "Suporte",
+   "elemento": "",
+   "mana": 100,
+   "level": 13,
+   "premium": false,
+   "vocacoes": [
+    "Paladins"
+   ],
+   "cooldown_s": 2,
+   "cooldown_grupo_s": 2,
+   "efeito": "Conjura 10 Arrows por 1 Soul Point.",
+   "versao": "",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Conjure_Arrow"
+  },
+  {
+   "nome": "Conjure Bolt",
+   "palavras": "exevo con mort",
+   "tipo": "Suprimento",
+   "elemento": "",
+   "mana": 140,
+   "level": 17,
+   "premium": true,
+   "vocacoes": [
+    "Paladins"
+   ],
+   "cooldown_s": 2,
+   "cooldown_grupo_s": 2,
+   "efeito": "Conjura 5 Bolts usando 2 Soul Points.",
+   "versao": "6.4",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Conjure_Bolt"
+  },
+  {
+   "nome": "Conjure Diamond Arrow",
+   "palavras": "exevo gran con hur",
+   "tipo": "Suprimento",
+   "elemento": "",
+   "mana": 1000,
+   "level": 150,
+   "premium": true,
+   "vocacoes": [
+    "Paladins"
+   ],
+   "cooldown_s": 600,
+   "cooldown_grupo_s": 2,
+   "efeito": "Conjura 100 Diamond Arrows.",
+   "versao": "11.40",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Conjure_Diamond_Arrow"
+  },
+  {
+   "nome": "Conjure Explosive Arrow",
+   "palavras": "exevo con flam",
+   "tipo": "Suporte",
+   "elemento": "",
+   "mana": 290,
+   "level": 25,
+   "premium": false,
+   "vocacoes": [
+    "Paladins"
+   ],
+   "cooldown_s": 2,
+   "cooldown_grupo_s": 2,
+   "efeito": "Conjura 8 Burst Arrows usando 3 Soul Points.",
+   "versao": "",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Conjure_Explosive_Arrow"
+  },
+  {
+   "nome": "Conjure Piercing Bolt",
+   "palavras": "exevo con grav",
+   "tipo": "Suprimento",
+   "elemento": "",
+   "mana": 180,
+   "level": 33,
+   "premium": true,
+   "vocacoes": [
+    "Paladins"
+   ],
+   "cooldown_s": 2,
+   "cooldown_grupo_s": 2,
+   "efeito": "Conjura 5 Piercing Bolts usando 3 Soul Points.",
+   "versao": "8.0",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Conjure_Piercing_Bolt"
+  },
+  {
+   "nome": "Conjure Poisoned Arrow",
+   "palavras": "exevo con pox",
+   "tipo": "Suprimento",
+   "elemento": "",
+   "mana": 130,
+   "level": 16,
+   "premium": false,
+   "vocacoes": [
+    "Paladins"
+   ],
+   "cooldown_s": 2,
+   "cooldown_grupo_s": 2,
+   "efeito": "Conjura 7 Poison Arrows usando 2 Soul Points.",
+   "versao": "",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Conjure_Poisoned_Arrow"
+  },
+  {
+   "nome": "Conjure Power Bolt",
+   "palavras": "exevo con vis",
+   "tipo": "Suprimento",
+   "elemento": "",
+   "mana": 700,
+   "level": 59,
+   "premium": true,
+   "vocacoes": [
+    "Paladins"
+   ],
+   "cooldown_s": 2,
+   "cooldown_grupo_s": 2,
+   "efeito": "Conjura 10 Power Bolts usando 4 Soul Points.",
+   "versao": "6.6",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Conjure_Power_Bolt"
+  },
+  {
+   "nome": "Conjure Sniper Arrow",
+   "palavras": "exevo con hur",
+   "tipo": "Suprimento",
+   "elemento": "",
+   "mana": 160,
+   "level": 24,
+   "premium": true,
+   "vocacoes": [
+    "Paladins"
+   ],
+   "cooldown_s": 2,
+   "cooldown_grupo_s": 2,
+   "efeito": "Conjura 5 Sniper Arrows usando 3 Soul Points.",
+   "versao": "8.0",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Conjure_Sniper_Arrow"
+  },
+  {
+   "nome": "Conjure Spectral Bolt",
+   "palavras": "exevo gran con vis",
+   "tipo": "Suprimento",
+   "elemento": "",
+   "mana": 1000,
+   "level": 150,
+   "premium": true,
+   "vocacoes": [
+    "Paladins"
+   ],
+   "cooldown_s": 600,
+   "cooldown_grupo_s": 2,
+   "efeito": "Conjura 100 Spectral Bolts.",
+   "versao": "11.40",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Conjure_Spectral_Bolt"
+  },
+  {
+   "nome": "Conjure Wand of Darkness",
+   "palavras": "exevo gran mort",
+   "tipo": "Suporte",
+   "elemento": "",
+   "mana": 250,
+   "level": 41,
+   "premium": true,
+   "vocacoes": [
+    "Sorcerers"
+   ],
+   "cooldown_s": 1800,
+   "cooldown_grupo_s": 2,
+   "efeito": "Conjura uma Wand of Darkness.",
+   "versao": "11.40",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Conjure_Wand_of_Darkness"
+  },
+  {
+   "nome": "Creature Illusion",
+   "palavras": "utevo res ina",
+   "tipo": "Suporte",
+   "elemento": "",
+   "mana": 100,
+   "level": 23,
+   "premium": false,
+   "vocacoes": [
+    "Druids",
+    "Sorcerers"
+   ],
+   "cooldown_s": 2,
+   "cooldown_grupo_s": 2,
+   "efeito": "Transforma você em uma certa criatura por 3 minutos.",
+   "versao": "",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Creature_Illusion"
+  },
+  {
+   "nome": "Cure Bleeding",
+   "palavras": "exana kor",
+   "tipo": "Cura",
+   "elemento": "",
+   "mana": 30,
+   "level": 45,
+   "premium": true,
+   "vocacoes": [
+    "Druids",
+    "Knights"
+   ],
+   "cooldown_s": 6,
+   "cooldown_grupo_s": 1,
+   "efeito": "Remove o efeito Bleeding.",
+   "versao": "8.7",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Cure_Bleeding"
+  },
+  {
+   "nome": "Cure Burning",
+   "palavras": "exana flam",
+   "tipo": "Cura",
+   "elemento": "",
+   "mana": 30,
+   "level": 30,
+   "premium": true,
+   "vocacoes": [
+    "Druids"
+   ],
+   "cooldown_s": 6,
+   "cooldown_grupo_s": 1,
+   "efeito": "Remove o efeito Burning.",
+   "versao": "8.7",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Cure_Burning"
+  },
+  {
+   "nome": "Cure Curse",
+   "palavras": "exana mort",
+   "tipo": "Cura",
+   "elemento": "",
+   "mana": 40,
+   "level": 80,
+   "premium": true,
+   "vocacoes": [
+    "Paladins"
+   ],
+   "cooldown_s": 6,
+   "cooldown_grupo_s": 1,
+   "efeito": "Remove o efeito Cursed.",
+   "versao": "8.7",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Cure_Curse"
+  },
+  {
+   "nome": "Cure Electrification",
+   "palavras": "exana vis",
+   "tipo": "Cura",
+   "elemento": "",
+   "mana": 30,
+   "level": 22,
+   "premium": true,
+   "vocacoes": [
+    "Druids"
+   ],
+   "cooldown_s": 6,
+   "cooldown_grupo_s": 1,
+   "efeito": "Remove o efeito Electrified.",
+   "versao": "8.7",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Cure_Electrification"
+  },
+  {
+   "nome": "Cure Poison",
+   "palavras": "exana pox",
+   "tipo": "Cura",
+   "elemento": "",
+   "mana": 30,
+   "level": 10,
+   "premium": false,
+   "vocacoes": [
+    "Druids",
+    "Knights",
+    "Monks",
+    "Paladins",
+    "Sorcerers"
+   ],
+   "cooldown_s": 6,
+   "cooldown_grupo_s": 1,
+   "efeito": "Remove o efeito Poisoned.",
+   "versao": "",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Cure_Poison"
+  },
+  {
+   "nome": "Curse",
+   "palavras": "utori mort",
+   "tipo": "Ataque",
+   "elemento": "Death",
+   "mana": 30,
+   "level": 75,
+   "premium": true,
+   "vocacoes": [
+    "Sorcerers"
+   ],
+   "cooldown_s": 40,
+   "cooldown_grupo_s": 2,
+   "efeito": "Arquivo:Cursed Flash Icon.gif Adiciona ao alvo o efeito Cursed.",
+   "versao": "8.7",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Curse"
+  },
+  {
+   "nome": "Death Echo",
+   "palavras": "exevo mort ora",
+   "tipo": "Ataque",
+   "elemento": "Death",
+   "mana": 150,
+   "level": 120,
+   "premium": true,
+   "vocacoes": [
+    "Sorcerers"
+   ],
+   "cooldown_s": 6,
+   "cooldown_grupo_s": 2,
+   "efeito": "Arquivo:Cursed Flash Icon.gif Acerta uma área inicial causando dano de morte e, após um curto intervalo, gera um segundo impacto em uma área maior com dano adicional.",
+   "versao": "15.25.3a4a52",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Death_Echo"
+  },
+  {
+   "nome": "Death Strike",
+   "palavras": "exori mort",
+   "tipo": "Ataque",
+   "elemento": "Death",
+   "mana": 20,
+   "level": 16,
+   "premium": false,
+   "vocacoes": [
+    "Sorcerers"
+   ],
+   "cooldown_s": 2,
+   "cooldown_grupo_s": 2,
+   "efeito": "Arquivo:Cursed Flash Icon.gif Acerta o alvo causando dano de morte.",
+   "versao": "8.1",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Death_Strike"
+  },
+  {
+   "nome": "Devastating Knockout",
+   "palavras": "exori gran nia",
+   "tipo": "Ataque",
+   "elemento": "Physical",
+   "mana": 210,
+   "level": 125,
+   "premium": true,
+   "vocacoes": [
+    "Monks"
+   ],
+   "cooldown_s": 8,
+   "cooldown_grupo_s": 2,
+   "efeito": "Gaste toda a Harmonia para causar um alto dano a um inimigo. *Perde a harmonia ao usar a magia.",
+   "versao": "15.00.249ccc",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Devastating_Knockout"
+  },
+  {
+   "nome": "Divine Barrage",
+   "palavras": "exori dir san",
+   "tipo": "Ataque",
+   "elemento": "Holy",
+   "mana": 175,
+   "level": 70,
+   "premium": true,
+   "vocacoes": [
+    "Paladins"
+   ],
+   "cooldown_s": 4,
+   "cooldown_grupo_s": 2,
+   "efeito": "Arquivo:Dazzled Flash Icon.gif Acerta o alvo e a área ao seu redor, causando dano sagrado.",
+   "versao": "15.25.3a4a52",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Divine_Barrage"
+  },
+  {
+   "nome": "Divine Caldera",
+   "palavras": "exevo mas san",
+   "tipo": "Ataque",
+   "elemento": "Holy",
+   "mana": 160,
+   "level": 50,
+   "premium": true,
+   "vocacoes": [
+    "Paladins"
+   ],
+   "cooldown_s": 4,
+   "cooldown_grupo_s": 2,
+   "efeito": "Arquivo:Dazzled Flash Icon.gif Atinge 37 sqms (contando o seu) ao seu redor, causando dano sagrado.",
+   "versao": "8.1",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Divine_Caldera"
+  },
+  {
+   "nome": "Divine Dazzle",
+   "palavras": "exana amp res",
+   "tipo": "Suporte",
+   "elemento": "",
+   "mana": 80,
+   "level": 250,
+   "premium": true,
+   "vocacoes": [
+    "Paladins"
+   ],
+   "cooldown_s": 16,
+   "cooldown_grupo_s": 2,
+   "efeito": "Acorrenta até 3 criaturas, priorizando alvos que atacam à distância. Estes passam a atacar corpo-a-corpo por 8s. Um ícone indica que a criatura está afetada por essa magia. Não pode ser usada ao enfrentar bosses de alavanca.",
+   "versao": "12.55.10451",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Divine_Dazzle"
+  },
+  {
+   "nome": "Divine Defiance",
+   "palavras": "utori hur",
+   "tipo": "Stance",
+   "elemento": "",
+   "mana": 250,
+   "level": 20,
+   "premium": true,
+   "vocacoes": [
+    "Paladins"
+   ],
+   "cooldown_s": 10,
+   "cooldown_grupo_s": 2,
+   "efeito": "Ativa uma ‘‘stance’’ defensiva que concede um bônus equivalente a 6% do seu Distance Fighting como Holy Magic Level e Healing Magic Level, além de 12% de esquiva contra inimigos não adjacentes.",
+   "versao": "15.25.3a4a52",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Divine_Defiance"
+  },
+  {
+   "nome": "Divine Empowerment",
+   "palavras": "utevo grav san",
+   "tipo": "Suporte",
+   "elemento": "",
+   "mana": 500,
+   "level": 1,
+   "premium": true,
+   "vocacoes": [
+    "Paladins"
+   ],
+   "cooldown_s": 32,
+   "cooldown_grupo_s": 2,
+   "efeito": "Cria um campo 3x3 de energia sagrada abaixo de seus pés que dura 5 segundos. Enquanto você permanecer neste campo, o dano causado aumentará.",
+   "versao": "13.10.12852",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Divine_Empowerment"
+  },
+  {
+   "nome": "Divine Grenade",
+   "palavras": "exevo tempo mas san",
+   "tipo": "Ataque",
+   "elemento": "Holy",
+   "mana": 160,
+   "level": 1,
+   "premium": true,
+   "vocacoes": [
+    "Paladins"
+   ],
+   "cooldown_s": 26,
+   "cooldown_grupo_s": 2,
+   "efeito": "Planta um marcador que explode após 3 segundos, causando dano sagrado. A magia pode ser utilizada de três formas: * Com crosshair (use-with). * Na posição do cursor do mouse. * Abaixo do alvo selecionado ou, caso não haja um alvo, abaixo do personagem.",
+   "versao": "13.10.12852",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Divine_Grenade"
+  },
+  {
+   "nome": "Divine Healing",
+   "palavras": "exura san",
+   "tipo": "Cura",
+   "elemento": "Healing",
+   "mana": 160,
+   "level": 35,
+   "premium": false,
+   "vocacoes": [
+    "Paladins"
+   ],
+   "cooldown_s": 1,
+   "cooldown_grupo_s": 1,
+   "efeito": "Magia de cura usando poderes sagrados dos Paladins.",
+   "versao": "8.1",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Divine_Healing"
+  },
+  {
+   "nome": "Divine Missile",
+   "palavras": "exori san",
+   "tipo": "Ataque",
+   "elemento": "Holy",
+   "mana": 20,
+   "level": 40,
+   "premium": true,
+   "vocacoes": [
+    "Paladins"
+   ],
+   "cooldown_s": 2,
+   "cooldown_grupo_s": 2,
+   "efeito": "Arquivo:Dazzled Flash Icon.gif Acerta o alvo causando dano sagrado.",
+   "versao": "8.1",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Divine_Missile"
+  },
+  {
+   "nome": "Double Jab",
+   "palavras": "exori pug",
+   "tipo": "Ataque",
+   "elemento": "Physical",
+   "mana": 30,
+   "level": 14,
+   "premium": false,
+   "vocacoes": [
+    "Monks"
+   ],
+   "cooldown_s": 4,
+   "cooldown_grupo_s": 2,
+   "efeito": "Causa dano a um inimigo único. *Aumenta sua harmonia ao usar a magia.",
+   "versao": "15.00.249ccc",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Double_Jab"
+  },
+  {
+   "nome": "Electrify",
+   "palavras": "utori vis",
+   "tipo": "Ataque",
+   "elemento": "Energy",
+   "mana": 30,
+   "level": 34,
+   "premium": true,
+   "vocacoes": [
+    "Sorcerers"
+   ],
+   "cooldown_s": 30,
+   "cooldown_grupo_s": 2,
+   "efeito": "Arquivo:Electrified Flash Icon.gif Adiciona ao alvo o efeito Electrified.",
+   "versao": "8.7",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Electrify"
+  },
+  {
+   "nome": "Elemental Synthesis",
+   "palavras": "utito dru",
+   "tipo": "Stance",
+   "elemento": "",
+   "mana": 400,
+   "level": 20,
+   "premium": true,
+   "vocacoes": [
+    "Druids"
+   ],
+   "cooldown_s": 10,
+   "cooldown_grupo_s": 2,
+   "efeito": "Ativa uma stance que concede um bônus equivalente a 10% do seu Magic Level como Magic Level adicional para magias de gelo e terra.",
+   "versao": "15.25.3a4a52",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Elemental_Synthesis"
+  },
+  {
+   "nome": "Enchant Party",
+   "palavras": "utori mas sio",
+   "tipo": "Suporte, Party",
+   "elemento": "",
+   "mana": null,
+   "level": 32,
+   "premium": true,
+   "vocacoes": [
+    "Sorcerers"
+   ],
+   "cooldown_s": 2,
+   "cooldown_grupo_s": 2,
+   "efeito": "Arquivo:Strengthened Flash Icon.gif Aumenta o magic level do sorcerer e de sua party em +1, por um tempo de 2 minutos. Esta magia abrange uma área de 37 SQMs ao redor do sorcerer, incluindo o sqm aonde ele está.",
+   "versao": "8.4",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Enchant_Party"
+  },
+  {
+   "nome": "Enchant Spear",
+   "palavras": "exeta con",
+   "tipo": "Suprimento",
+   "elemento": "",
+   "mana": 350,
+   "level": 45,
+   "premium": true,
+   "vocacoes": [
+    "Paladins"
+   ],
+   "cooldown_s": 2,
+   "cooldown_grupo_s": 2,
+   "efeito": "Transforma uma Spear em uma Enchanted Spear usando 3 Soul Points.",
+   "versao": "8.0",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Enchant_Spear"
+  },
+  {
+   "nome": "Enchant Staff",
+   "palavras": "exeta vis",
+   "tipo": "Suprimento",
+   "elemento": "",
+   "mana": 80,
+   "level": 41,
+   "premium": true,
+   "vocacoes": [
+    "Sorcerers"
+   ],
+   "cooldown_s": 2,
+   "cooldown_grupo_s": 2,
+   "efeito": "Transforma uma Staff (10/25) em uma Enchanted Staff (39/45) por 60 segundos.",
+   "versao": "6.6",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Enchant_Staff"
+  },
+  {
+   "nome": "Energy Beam",
+   "palavras": "exevo vis lux",
+   "tipo": "Ataque",
+   "elemento": "Energy",
+   "mana": 40,
+   "level": 23,
+   "premium": false,
+   "vocacoes": [
+    "Sorcerers"
+   ],
+   "cooldown_s": 4,
+   "cooldown_grupo_s": 2,
+   "efeito": "Arquivo:Electrified Flash Icon.gif Atira um longo raio para a frente de quem a usa. O raio tem 5sqm de comprimento.",
+   "versao": "",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Energy_Beam"
+  },
+  {
+   "nome": "Energy Strike",
+   "palavras": "exori vis",
+   "tipo": "Ataque",
+   "elemento": "Energy",
+   "mana": 20,
+   "level": 12,
+   "premium": false,
+   "vocacoes": [
+    "Druids",
+    "Sorcerers"
+   ],
+   "cooldown_s": 2,
+   "cooldown_grupo_s": 2,
+   "efeito": "Arquivo:Electrified Flash Icon.gif Acerta o alvo causando dano elétrico.",
+   "versao": "6.6",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Energy_Strike"
+  },
+  {
+   "nome": "Energy Wave",
+   "palavras": "exevo vis hur",
+   "tipo": "Ataque",
+   "elemento": "Energy",
+   "mana": 170,
+   "level": 38,
+   "premium": false,
+   "vocacoes": [
+    "Sorcerers"
+   ],
+   "cooldown_s": 8,
+   "cooldown_grupo_s": 2,
+   "efeito": "Arquivo:Electrified Flash Icon.gif Atira uma wave de energia na direção em que o player que usá-la estiver olhando. É um \"cone\" de 1 / 1 / 3 / 3 / 3 sqms.",
+   "versao": "",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Energy_Wave"
+  },
+  {
+   "nome": "Enlighten Party",
+   "palavras": "utevo mas sio",
+   "tipo": "Party",
+   "elemento": "",
+   "mana": 75,
+   "level": 32,
+   "premium": true,
+   "vocacoes": [
+    "Monks"
+   ],
+   "cooldown_s": 300,
+   "cooldown_grupo_s": 2,
+   "efeito": "Restaura 160 mana ao longo de 2 minutos.",
+   "versao": "15.00.249ccc",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Enlighten_Party"
+  },
+  {
+   "nome": "Envenom",
+   "palavras": "utori pox",
+   "tipo": "Ataque",
+   "elemento": "Earth",
+   "mana": 30,
+   "level": 50,
+   "premium": true,
+   "vocacoes": [
+    "Druids"
+   ],
+   "cooldown_s": 40,
+   "cooldown_grupo_s": 2,
+   "efeito": "Arquivo:Poisoned Flash Icon.gif Adiciona ao alvo o efeito Poisoned.",
+   "versao": "6.4",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Envenom"
+  },
+  {
+   "nome": "Eternal Winter",
+   "palavras": "exevo gran mas frigo",
+   "tipo": "Ataque, Focus",
+   "elemento": "Ice",
+   "mana": 1050,
+   "level": 60,
+   "premium": true,
+   "vocacoes": [
+    "Druids"
+   ],
+   "cooldown_s": 40,
+   "cooldown_grupo_s": 4,
+   "efeito": "Arquivo:Freezing Flash Icon.gif Atinge 61 sqms (contando o seu) ao seu redor, causando dano de gelo.",
+   "versao": "8.1",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Eternal_Winter"
+  },
+  {
+   "nome": "Ethereal Barrage",
+   "palavras": "exori dir moe",
+   "tipo": "Ataque",
+   "elemento": "Physical",
+   "mana": 135,
+   "level": 60,
+   "premium": true,
+   "vocacoes": [
+    "Paladins"
+   ],
+   "cooldown_s": 4,
+   "cooldown_grupo_s": 2,
+   "efeito": "Arquivo:Physical_Damage_Icon.gif Acerta o alvo e a área ao seu redor, causando dano físico.",
+   "versao": "15.25.3a4a52",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Ethereal_Barrage"
+  },
+  {
+   "nome": "Ethereal Spear",
+   "palavras": "exori con",
+   "tipo": "Ataque",
+   "elemento": "Physical",
+   "mana": 25,
+   "level": 23,
+   "premium": false,
+   "vocacoes": [
+    "Paladins"
+   ],
+   "cooldown_s": 2,
+   "cooldown_grupo_s": 2,
+   "efeito": "Arquivo:Physical Damage Icon.gif Acerta o alvo causando dano físico, possui uma versão mais forte Strong Ethereal Spear.",
+   "versao": "8.0",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Ethereal_Spear"
+  },
+  {
+   "nome": "Executioner's Throw",
+   "palavras": "exori amp kor",
+   "tipo": "Ataque",
+   "elemento": "Físico",
+   "mana": 225,
+   "level": 1,
+   "premium": true,
+   "vocacoes": [
+    "Knights"
+   ],
+   "cooldown_s": 18,
+   "cooldown_grupo_s": 2,
+   "efeito": "Arquivo:Physical_Damage_Icon.gif Lança sua arma em seu alvo, causando dano físico e ricocheteando em inimigos próximos.",
+   "versao": "13.10.12852",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Executioner%27s_Throw"
+  },
+  {
+   "nome": "Expose Weakness",
+   "palavras": "exori moe",
+   "tipo": "Suporte, Crippling",
+   "elemento": "",
+   "mana": 400,
+   "level": 275,
+   "premium": true,
+   "vocacoes": [
+    "Sorcerers"
+   ],
+   "cooldown_s": 12,
+   "cooldown_grupo_s": 2,
+   "efeito": "Arquivo:Strengthened Flash Icon.gif Aumenta a sensibilidade de todas as criaturas a todos os elementos em 4% por 16 segundos em uma área de até 37 Sqms. Equivale a Avalanche.",
+   "versao": "12.55.10451",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Expose_Weakness"
+  },
+  {
+   "nome": "Fair Wound Cleansing",
+   "palavras": "exura med ico",
+   "tipo": "Cura",
+   "elemento": "Healing",
+   "mana": 135,
+   "level": 300,
+   "premium": true,
+   "vocacoes": [
+    "Knights"
+   ],
+   "cooldown_s": 2,
+   "cooldown_grupo_s": 2,
+   "efeito": "Restaura a vida do usuário. A cura será maior que a de um Wound Cleansing e menor que a de um Intense Wound Cleansing",
+   "versao": "12.55.10451",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Fair_Wound_Cleansing"
+  },
+  {
+   "nome": "Fierce Berserk",
+   "palavras": "exori gran",
+   "tipo": "Ataque",
+   "elemento": "Physical",
+   "mana": 360,
+   "level": 90,
+   "premium": true,
+   "vocacoes": [
+    "Knights"
+   ],
+   "cooldown_s": 6,
+   "cooldown_grupo_s": 2,
+   "efeito": "Arquivo:Physical Damage Icon.gif Acerta todos os oponentes que estiverem em um dos 9 sqms(contando o seu) em volta ou embaixo do knight que a usar, causando dano físico. Caso esteja equipado com uma arma encantada, parte do dano da magia será dano mágico.",
+   "versao": "8.0",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Fierce_Berserk"
+  },
+  {
+   "nome": "Find Fiend",
+   "palavras": "exiva moe res",
+   "tipo": "Suporte",
+   "elemento": "",
+   "mana": 20,
+   "level": 25,
+   "premium": false,
+   "vocacoes": [
+    "Druids",
+    "Knights",
+    "Monks",
+    "Paladins",
+    "Sorcerers"
+   ],
+   "cooldown_s": 2,
+   "cooldown_grupo_s": 2,
+   "efeito": "Diz a direção em que a criatura fiendish mais próxima está, em relação a você, e dá uma ideia de distância.",
+   "versao": "12.80",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Find_Fiend"
+  },
+  {
+   "nome": "Find Person",
+   "palavras": "exiva",
+   "tipo": "Suporte",
+   "elemento": "",
+   "mana": 20,
+   "level": 8,
+   "premium": false,
+   "vocacoes": [
+    "Druids",
+    "Knights",
+    "Monks",
+    "Paladins",
+    "Sorcerers"
+   ],
+   "cooldown_s": 2,
+   "cooldown_grupo_s": 2,
+   "efeito": "Diz a direção em que certo jogador está, em relação a você, e dá uma ideia de distância.",
+   "versao": "",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Find_Person"
+  },
+  {
+   "nome": "Fire Wave",
+   "palavras": "exevo flam hur",
+   "tipo": "Ataque",
+   "elemento": "Fire",
+   "mana": 25,
+   "level": 18,
+   "premium": false,
+   "vocacoes": [
+    "Sorcerers"
+   ],
+   "cooldown_s": 4,
+   "cooldown_grupo_s": 2,
+   "efeito": "Arquivo:Burning Flash Icon.gif Atira uma wave de fogo em forma de cone na direção em que o player que usá-la estiver olhando.",
+   "versao": "",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Fire_Wave"
+  },
+  {
+   "nome": "Flame Strike",
+   "palavras": "exori flam",
+   "tipo": "Ataque",
+   "elemento": "Fire",
+   "mana": 20,
+   "level": 8,
+   "premium": false,
+   "vocacoes": [
+    "Druids",
+    "Sorcerers"
+   ],
+   "cooldown_s": 2,
+   "cooldown_grupo_s": 2,
+   "efeito": "Arquivo:Burning Flash Icon.gif Acerta o alvo causando dano de fogo.",
+   "versao": "6.6",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Flame_Strike"
+  },
+  {
+   "nome": "Flurry of Blows",
+   "palavras": "exori mas pug",
+   "tipo": "Ataque",
+   "elemento": "Physical",
+   "mana": 110,
+   "level": 35,
+   "premium": true,
+   "vocacoes": [
+    "Monks"
+   ],
+   "cooldown_s": 4,
+   "cooldown_grupo_s": 2,
+   "efeito": "Ataque em área que atinge 9 Sqms (Sem a perk da Wheel of Destiny) , em volta do jogador para o lado onde ele estiver posicionado. *Aumenta sua harmonia ao usar a magia.",
+   "versao": "15.00.249ccc",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Flurry_of_Blows"
+  },
+  {
+   "nome": "Focus Harmony",
+   "palavras": "utevo nia",
+   "tipo": "Suporte",
+   "elemento": "",
+   "mana": 500,
+   "level": 275,
+   "premium": true,
+   "vocacoes": [
+    "Monks"
+   ],
+   "cooldown_s": 120,
+   "cooldown_grupo_s": 2,
+   "efeito": "Concede instantaneamente Harmonia máxima.",
+   "versao": "15.00.249ccc",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Focus_Harmony"
+  },
+  {
+   "nome": "Focus Serenity",
+   "palavras": "utamo tio",
+   "tipo": "Suporte",
+   "elemento": "",
+   "mana": 500,
+   "level": 150,
+   "premium": true,
+   "vocacoes": [
+    "Monks"
+   ],
+   "cooldown_s": 600,
+   "cooldown_grupo_s": 2,
+   "efeito": "Concede instantaneamente o máximo de Harmonia, reinicia todos os cooldowns e deixa o monge sereno durante 7 segundos.",
+   "versao": "15.00.249ccc",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Focus_Serenity"
+  },
+  {
+   "nome": "Food (Spell)",
+   "palavras": "exevo pan",
+   "tipo": "Suporte",
+   "elemento": "",
+   "mana": 120,
+   "level": 14,
+   "premium": false,
+   "vocacoes": [
+    "Druids"
+   ],
+   "cooldown_s": 2,
+   "cooldown_grupo_s": 2,
+   "efeito": "Arquivo:Hungry Flash Icon.gif Cria vários tipos de comida.",
+   "versao": "",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Food_%28Spell%29"
+  },
+  {
+   "nome": "Forceful Uppercut",
+   "palavras": "exori gran pug",
+   "tipo": "Ataque",
+   "elemento": "Physical",
+   "mana": 325,
+   "level": 110,
+   "premium": true,
+   "vocacoes": [
+    "Monks"
+   ],
+   "cooldown_s": 60,
+   "cooldown_grupo_s": 2,
+   "efeito": "Causa um elevado dano a um único alvo em combate corpo a corpo. * Aumenta sua harmonia ao usar a magia.",
+   "versao": "15.00.249ccc",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Forceful_Uppercut"
+  },
+  {
+   "nome": "Forked Glacier",
+   "palavras": "exevo fur frigo",
+   "tipo": "Ataque",
+   "elemento": "Ice",
+   "mana": 180,
+   "level": 90,
+   "premium": true,
+   "vocacoes": [
+    "Druids"
+   ],
+   "cooldown_s": 6,
+   "cooldown_grupo_s": 2,
+   "efeito": "Arquivo:Freezing Flash Icon.gif Acerta o alvo e até 6 alvos adicionais próximos, causando dano de gelo.",
+   "versao": "15.25.3a4a52",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Forked_Glacier"
+  },
+  {
+   "nome": "Forked Thorns",
+   "palavras": "exevo fur tera",
+   "tipo": "Ataque",
+   "elemento": "Earth",
+   "mana": 180,
+   "level": 80,
+   "premium": true,
+   "vocacoes": [
+    "Druids"
+   ],
+   "cooldown_s": 6,
+   "cooldown_grupo_s": 2,
+   "efeito": "link= Acerta o alvo e até 5 alvos adicionais próximos, causando dano de terra.",
+   "versao": "15.25.3a4a52",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Forked_Thorns"
+  },
+  {
+   "nome": "Front Sweep",
+   "palavras": "exori min",
+   "tipo": "Ataque",
+   "elemento": "Physical",
+   "mana": 200,
+   "level": 70,
+   "premium": true,
+   "vocacoes": [
+    "Knights"
+   ],
+   "cooldown_s": 6,
+   "cooldown_grupo_s": 2,
+   "efeito": "Arquivo:Physical Damage Icon.gif Acerta todos os oponentes que estiverem nos 3 sqms na frente do Knight que a usar, causando dano físico. Caso esteja equipado com uma arma encantada, parte do dano da magia será dano mágico.",
+   "versao": "8.7",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Front_Sweep"
+  },
+  {
+   "nome": "Great Death Beam",
+   "palavras": "exevo max mort",
+   "tipo": "Ataque",
+   "elemento": "Death",
+   "mana": 140,
+   "level": 66,
+   "premium": true,
+   "vocacoes": [
+    "Sorcerers"
+   ],
+   "cooldown_s": 6,
+   "cooldown_grupo_s": 2,
+   "efeito": "Uma magia de feixe que causa dano de morte.",
+   "versao": "13.10.12852",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Great_Death_Beam"
+  },
+  {
+   "nome": "Great Energy Beam",
+   "palavras": "exevo gran vis lux",
+   "tipo": "Ataque, Great Beams",
+   "elemento": "Energy",
+   "mana": 110,
+   "level": 29,
+   "premium": false,
+   "vocacoes": [
+    "Sorcerers"
+   ],
+   "cooldown_s": 6,
+   "cooldown_grupo_s": 2,
+   "efeito": "Arquivo:Electrified Flash Icon.gif Atira um forte raio nos 8 sqms da sua frente.",
+   "versao": "",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Great_Energy_Beam"
+  },
+  {
+   "nome": "Great Fire Wave",
+   "palavras": "exevo gran flam hur",
+   "tipo": "Ataque",
+   "elemento": "Fire",
+   "mana": 120,
+   "level": 38,
+   "premium": true,
+   "vocacoes": [
+    "Sorcerers"
+   ],
+   "cooldown_s": 4,
+   "cooldown_grupo_s": 2,
+   "efeito": "Causa dano de fogo em uma área diretamente em frente ao conjurador. O dano é maior que o de uma Fireball Rune, mas menor que o de uma Energy Wave.",
+   "versao": "12.55.10451",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Great_Fire_Wave"
+  },
+  {
+   "nome": "Great Light",
+   "palavras": "utevo gran lux",
+   "tipo": "Suporte",
+   "elemento": "",
+   "mana": 60,
+   "level": 13,
+   "premium": false,
+   "vocacoes": [
+    "Druids",
+    "Knights",
+    "Monks",
+    "Paladins",
+    "Sorcerers"
+   ],
+   "cooldown_s": 2,
+   "cooldown_grupo_s": 2,
+   "efeito": "Gera uma quantidade média de luz.",
+   "versao": "",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Great_Light"
+  },
+  {
+   "nome": "Greater Flurry of Blows",
+   "palavras": "exori gran mas pug",
+   "tipo": "Ataque",
+   "elemento": "Physical",
+   "mana": 300,
+   "level": 90,
+   "premium": true,
+   "vocacoes": [
+    "Monks"
+   ],
+   "cooldown_s": 16,
+   "cooldown_grupo_s": 2,
+   "efeito": "Ataque em área que atinge até 14 Sqms , em volta do jogador para o lado onde ele estiver posicionado, versão mais forte da Flurry of Blows. *Aumenta sua harmonia ao usar a magia.",
+   "versao": "15.00.249ccc",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Greater_Flurry_of_Blows"
+  },
+  {
+   "nome": "Greater Tiger Clash",
+   "palavras": "exori nia",
+   "tipo": "Ataque",
+   "elemento": "Physical",
+   "mana": 50,
+   "level": 18,
+   "premium": true,
+   "vocacoes": [
+    "Monks"
+   ],
+   "cooldown_s": 8,
+   "cooldown_grupo_s": 2,
+   "efeito": "Ataque de alvo único, versão mais poderosa que o Tiger Clash. *Perde a harmonia ao usar a magia.",
+   "versao": "15.00.249ccc",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Greater_Tiger_Clash"
+  },
+  {
+   "nome": "Groundshaker",
+   "palavras": "exori mas",
+   "tipo": "Ataque",
+   "elemento": "Physical",
+   "mana": 200,
+   "level": 33,
+   "premium": true,
+   "vocacoes": [
+    "Knights"
+   ],
+   "cooldown_s": 8,
+   "cooldown_grupo_s": 2,
+   "efeito": "Arquivo:Physical Damage Icon.gif Atinge 37 sqms (contando o seu) causando dano físico. Caso esteja equipado com uma arma encantada, parte do dano da magia será dano mágico.",
+   "versao": "8.0",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Groundshaker"
+  },
+  {
+   "nome": "Haste",
+   "palavras": "utani hur",
+   "tipo": "Suporte",
+   "elemento": "",
+   "mana": 60,
+   "level": 14,
+   "premium": false,
+   "vocacoes": [
+    "Druids",
+    "Knights",
+    "Monks",
+    "Paladins",
+    "Sorcerers"
+   ],
+   "cooldown_s": 2,
+   "cooldown_grupo_s": 2,
+   "efeito": "Arquivo:Haste Flash Icon.gif Aumenta sua velocidade durante 33 segundos.",
+   "versao": "6.4",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Haste"
+  },
+  {
+   "nome": "Heal Friend",
+   "palavras": "exura sio",
+   "tipo": "Cura",
+   "elemento": "Healing",
+   "mana": 120,
+   "level": 18,
+   "premium": true,
+   "vocacoes": [
+    "Druids"
+   ],
+   "cooldown_s": 1,
+   "cooldown_grupo_s": 1,
+   "efeito": "Cura o jogador alvo.",
+   "versao": "6.4",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Heal_Friend"
+  },
+  {
+   "nome": "Heal Party",
+   "palavras": "utura mas sio",
+   "tipo": "Party",
+   "elemento": "",
+   "mana": null,
+   "level": 32,
+   "premium": true,
+   "vocacoes": [
+    "Druids"
+   ],
+   "cooldown_s": 2,
+   "cooldown_grupo_s": 2,
+   "efeito": "Arquivo:Strengthened Flash Icon.gif Afeta os membros da sua party que começam a receber uma pequena cura de 20 hitpoints a cada 2 segundos, por um período de 2 minutos.",
+   "versao": "8.4",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Heal_Party"
+  },
+  {
+   "nome": "Hell's Core",
+   "palavras": "exevo gran mas flam",
+   "tipo": "Ataque, Focus",
+   "elemento": "Fire",
+   "mana": 1100,
+   "level": 60,
+   "premium": true,
+   "vocacoes": [
+    "Sorcerers"
+   ],
+   "cooldown_s": 40,
+   "cooldown_grupo_s": 4,
+   "efeito": "Arquivo:Burning Flash Icon.gif Atinge 73 sqms (contando o seu) causando dano de fogo.",
+   "versao": "8.1",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Hell%27s_Core"
+  },
+  {
+   "nome": "Holy Flash",
+   "palavras": "utori san",
+   "tipo": "Ataque",
+   "elemento": "Holy",
+   "mana": 30,
+   "level": 70,
+   "premium": true,
+   "vocacoes": [
+    "Paladins"
+   ],
+   "cooldown_s": 40,
+   "cooldown_grupo_s": 2,
+   "efeito": "Arquivo:Dazzled Flash Icon.gif Adiciona ao alvo o efeito Dazzled.",
+   "versao": "8.7",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Holy_Flash"
+  },
+  {
+   "nome": "Ice Burst",
+   "palavras": "exevo ulus frigo",
+   "tipo": "Ataque, Bursts of Nature",
+   "elemento": "Ice",
+   "mana": 230,
+   "level": 1,
+   "premium": true,
+   "vocacoes": [
+    "Druids"
+   ],
+   "cooldown_s": 22,
+   "cooldown_grupo_s": 2,
+   "efeito": "Lança um poderoso anel de gelo ao redor do personagem.",
+   "versao": "13.10.12852",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Ice_Burst"
+  },
+  {
+   "nome": "Ice Strike",
+   "palavras": "exori frigo",
+   "tipo": "Ataque",
+   "elemento": "Ice",
+   "mana": 20,
+   "level": 8,
+   "premium": false,
+   "vocacoes": [
+    "Druids",
+    "Sorcerers"
+   ],
+   "cooldown_s": 2,
+   "cooldown_grupo_s": 2,
+   "efeito": "Arquivo: Freezing Flash Icon.gif Acerta o alvo causando dano de gelo.",
+   "versao": "8.1",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Ice_Strike"
+  },
+  {
+   "nome": "Ice Wave",
+   "palavras": "exevo frigo hur",
+   "tipo": "Ataque",
+   "elemento": "Ice",
+   "mana": 25,
+   "level": 18,
+   "premium": false,
+   "vocacoes": [
+    "Druids"
+   ],
+   "cooldown_s": 4,
+   "cooldown_grupo_s": 2,
+   "efeito": "Arquivo:Freezing Flash Icon.gif Atira uma wave de gelo em forma de cone na direção em que o player que usá-la estiver olhando.",
+   "versao": "8.1",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Ice_Wave"
+  },
+  {
+   "nome": "Ignite",
+   "palavras": "utori flam",
+   "tipo": "Ataque",
+   "elemento": "Fire",
+   "mana": 30,
+   "level": 26,
+   "premium": true,
+   "vocacoes": [
+    "Sorcerers"
+   ],
+   "cooldown_s": 30,
+   "cooldown_grupo_s": 2,
+   "efeito": "Arquivo:Burning Flash Icon.gif Adiciona ao alvo o efeito Burning.",
+   "versao": "8.7",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Ignite"
+  },
+  {
+   "nome": "Inflict Wound",
+   "palavras": "utori kor",
+   "tipo": "Ataque",
+   "elemento": "Physical",
+   "mana": 30,
+   "level": 40,
+   "premium": true,
+   "vocacoes": [
+    "Knights",
+    "Monks"
+   ],
+   "cooldown_s": 30,
+   "cooldown_grupo_s": 2,
+   "efeito": "Arquivo:Bleeding Flash Icon.gif Adiciona ao alvo de ataque o efeito Bleeding.",
+   "versao": "8.7",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Inflict_Wound"
+  },
+  {
+   "nome": "Intense Healing",
+   "palavras": "exura gran",
+   "tipo": "Cura",
+   "elemento": "Healing",
+   "mana": 70,
+   "level": 20,
+   "premium": false,
+   "vocacoes": [
+    "Druids",
+    "Monks",
+    "Paladins",
+    "Sorcerers"
+   ],
+   "cooldown_s": 1,
+   "cooldown_grupo_s": 1,
+   "efeito": "Cura uma quantidade média de HP.",
+   "versao": "",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Intense_Healing"
+  },
+  {
+   "nome": "Intense Recovery",
+   "palavras": "utura gran",
+   "tipo": "Cura",
+   "elemento": "",
+   "mana": 165,
+   "level": 100,
+   "premium": true,
+   "vocacoes": [
+    "Knights",
+    "Paladins"
+   ],
+   "cooldown_s": 60,
+   "cooldown_grupo_s": 1,
+   "efeito": "Cura sua vida em 40 por turno durante o Cooldown. Irá curar 800 HP ao longo dos 60 segundos.",
+   "versao": "8.7",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Intense_Recovery"
+  },
+  {
+   "nome": "Intense Wound Cleansing",
+   "palavras": "exura gran ico",
+   "tipo": "Cura",
+   "elemento": "Healing",
+   "mana": 300,
+   "level": 80,
+   "premium": true,
+   "vocacoes": [
+    "Knights"
+   ],
+   "cooldown_s": 120,
+   "cooldown_grupo_s": 2,
+   "efeito": "Uma versão mais forte do Wound Cleansing.",
+   "versao": "8.7",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Intense_Wound_Cleansing"
+  },
+  {
+   "nome": "Invisible",
+   "palavras": "utana vid",
+   "tipo": "Suporte",
+   "elemento": "",
+   "mana": 440,
+   "level": 35,
+   "premium": false,
+   "vocacoes": [
+    "Druids",
+    "Sorcerers"
+   ],
+   "cooldown_s": 2,
+   "cooldown_grupo_s": 2,
+   "efeito": "Deixa você invisível por 200 segundos (3 min, 20 seg).",
+   "versao": "",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Invisible"
+  },
+  {
+   "nome": "Lesser Ethereal Spear",
+   "palavras": "exori infir con",
+   "tipo": "Ataque",
+   "elemento": "Physical",
+   "mana": 6,
+   "level": 1,
+   "premium": false,
+   "vocacoes": [
+    "Paladins"
+   ],
+   "cooldown_s": 8,
+   "cooldown_grupo_s": 2,
+   "efeito": "Arquivo:Physical Damage Icon.gif Acerta o alvo causando dano físico, possui uma versão mais forte Strong Ethereal Spear.",
+   "versao": "",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Lesser_Ethereal_Spear"
+  },
+  {
+   "nome": "Lesser Front Sweep",
+   "palavras": "exori infir min",
+   "tipo": "Ataque",
+   "elemento": "Instant",
+   "mana": 6,
+   "level": 1,
+   "premium": false,
+   "vocacoes": [
+    "Knights"
+   ],
+   "cooldown_s": 6,
+   "cooldown_grupo_s": 2,
+   "efeito": "Arquivo:Physical Damage Icon.gif Acerta o alvo causando dano físico.",
+   "versao": "10.55",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Lesser_Front_Sweep"
+  },
+  {
+   "nome": "Lesser Mystic Repulse",
+   "palavras": "exori infir amp pug",
+   "tipo": "Ataque",
+   "elemento": "Physical",
+   "mana": 30,
+   "level": 6,
+   "premium": false,
+   "vocacoes": [
+    "Monks"
+   ],
+   "cooldown_s": 20,
+   "cooldown_grupo_s": 2,
+   "efeito": "Causa um pequeno dano a um único alvo até 7 de distância. *Aumenta sua harmonia ao usar a magia.",
+   "versao": "15.12.c7d92c",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Lesser_Mystic_Repulse"
+  },
+  {
+   "nome": "Levitate",
+   "palavras": "exani hur",
+   "tipo": "Suporte",
+   "elemento": "",
+   "mana": 50,
+   "level": 12,
+   "premium": false,
+   "vocacoes": [
+    "Druids",
+    "Knights",
+    "Monks",
+    "Paladins",
+    "Sorcerers"
+   ],
+   "cooldown_s": 2,
+   "cooldown_grupo_s": 2,
+   "efeito": "Permite levitar magicamente para um andar acima ou abaixo.",
+   "versao": "6.4",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Levitate"
+  },
+  {
+   "nome": "Light",
+   "palavras": "utevo lux",
+   "tipo": "Suporte",
+   "elemento": "",
+   "mana": 20,
+   "level": 8,
+   "premium": false,
+   "vocacoes": [
+    "Druids",
+    "Knights",
+    "Monks",
+    "Paladins",
+    "Sorcerers"
+   ],
+   "cooldown_s": 2,
+   "cooldown_grupo_s": 2,
+   "efeito": "Gera uma luz com raio de 3 SQMs ao redor do personagem por 6 minutos e 10 segundos .",
+   "versao": "",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Light"
+  },
+  {
+   "nome": "Light Healing",
+   "palavras": "exura",
+   "tipo": "Cura",
+   "elemento": "Healing",
+   "mana": 20,
+   "level": 8,
+   "premium": false,
+   "vocacoes": [
+    "Druids",
+    "Monks",
+    "Paladins",
+    "Sorcerers"
+   ],
+   "cooldown_s": 1,
+   "cooldown_grupo_s": 1,
+   "efeito": "Cura uma quantidade pequena de HP.",
+   "versao": "",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Light_Healing"
+  },
+  {
+   "nome": "Lightning",
+   "palavras": "exori amp vis",
+   "tipo": "Ataque",
+   "elemento": "Energy",
+   "mana": 60,
+   "level": 55,
+   "premium": true,
+   "vocacoes": [
+    "Sorcerers"
+   ],
+   "cooldown_s": 8,
+   "cooldown_grupo_s": 2,
+   "efeito": "Arquivo:Electrified Flash Icon.gif Acerta o alvo causando dano elétrico.",
+   "versao": "8.7",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Lightning"
+  },
+  {
+   "nome": "Magic Patch",
+   "palavras": "exura infir",
+   "tipo": "Cura",
+   "elemento": "Healing",
+   "mana": 6,
+   "level": 1,
+   "premium": false,
+   "vocacoes": [
+    "Druids",
+    "Monks",
+    "Paladins",
+    "Sorcerers"
+   ],
+   "cooldown_s": 1,
+   "cooldown_grupo_s": 1,
+   "efeito": "Cura uma quantidade pequena de HP.",
+   "versao": "10.55",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Magic_Patch"
+  },
+  {
+   "nome": "Magic Rope",
+   "palavras": "exani tera",
+   "tipo": "Suporte",
+   "elemento": "",
+   "mana": 20,
+   "level": 9,
+   "premium": false,
+   "vocacoes": [
+    "Druids",
+    "Knights",
+    "Monks",
+    "Paladins",
+    "Sorcerers"
+   ],
+   "cooldown_s": 2,
+   "cooldown_grupo_s": 2,
+   "efeito": "Teleporta você para cima do buraco quando você está em cima de um rope spot.",
+   "versao": "6.4",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Magic_Rope"
+  },
+  {
+   "nome": "Magic Shield",
+   "palavras": "utamo vita",
+   "tipo": "Suporte",
+   "elemento": "",
+   "mana": 50,
+   "level": 14,
+   "premium": false,
+   "vocacoes": [
+    "Druids",
+    "Sorcerers"
+   ],
+   "cooldown_s": 14,
+   "cooldown_grupo_s": 2,
+   "efeito": "Arquivo:Magic_Shield_Flash_Icon.gif Todo dano sofrido durante o efeito desta magia será reduzido de sua Mana ao invés de seu HP. O Magic Shield absorve apenas uma quantidade limitada de dano antes de quebrar e quando esta magia se quebra, o efeito do feitiço desaparece.",
+   "versao": "",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Magic_Shield"
+  },
+  {
+   "nome": "Mass Healing",
+   "palavras": "exura gran mas res",
+   "tipo": "Cura",
+   "elemento": "Healing",
+   "mana": 150,
+   "level": 36,
+   "premium": true,
+   "vocacoes": [
+    "Druids"
+   ],
+   "cooldown_s": 2,
+   "cooldown_grupo_s": 1,
+   "efeito": "Cura todos os jogadores e criaturas sumonadas em volta de quem a usa.",
+   "versao": "6.4",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Mass_Healing"
+  },
+  {
+   "nome": "Mass Spirit Mend",
+   "palavras": "exura mas nia",
+   "tipo": "Cura",
+   "elemento": "Healing",
+   "mana": 400,
+   "level": 150,
+   "premium": true,
+   "vocacoes": [
+    "Monks"
+   ],
+   "cooldown_s": 12,
+   "cooldown_grupo_s": 1,
+   "efeito": "Promove uma cura a si mesmo e aos aliados próximos, também curando Criaturas Sumonadas em um raio de até 4 sqm do personagem. O valor da cura varia de acordo com o level e Magic Level de quem a utiliza. O conjurador recebe uma cura reduzida, semelhante à da magia Spirit Mend.",
+   "versao": "15.00.249ccc",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Mass_Spirit_Mend"
+  },
+  {
+   "nome": "Master of Decay",
+   "palavras": "uteta mort",
+   "tipo": "Stance",
+   "elemento": "Death",
+   "mana": 400,
+   "level": 20,
+   "premium": true,
+   "vocacoes": [
+    "Sorcerers"
+   ],
+   "cooldown_s": 30,
+   "cooldown_grupo_s": 2,
+   "efeito": "Ativa uma stance elemental de morte. Aumenta o critical extra damage de magias de morte em 30% e faz com que a próxima magia não relacionada cause dano de morte após conjurar uma magia deste elemento.",
+   "versao": "15.25.3a4a52",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Master_of_Decay"
+  },
+  {
+   "nome": "Master of Flames",
+   "palavras": "uteta flam",
+   "tipo": "Stance",
+   "elemento": "Fire",
+   "mana": 400,
+   "level": 20,
+   "premium": true,
+   "vocacoes": [
+    "Sorcerers"
+   ],
+   "cooldown_s": 30,
+   "cooldown_grupo_s": 2,
+   "efeito": "Ativa uma stance elemental de fogo. Aumenta o base power de magias de fogo em 4% e faz com que a próxima magia não relacionada cause dano de fogo após conjurar uma magia deste elemento.",
+   "versao": "15.25.3a4a52",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Master_of_Flames"
+  },
+  {
+   "nome": "Master of Thunder",
+   "palavras": "uteta vis",
+   "tipo": "Stance",
+   "elemento": "Energy",
+   "mana": 400,
+   "level": 20,
+   "premium": true,
+   "vocacoes": [
+    "Sorcerers"
+   ],
+   "cooldown_s": 30,
+   "cooldown_grupo_s": 2,
+   "efeito": "Ativa uma stance elemental de energia. Aumenta a critical chance de magias de energia em 4% e faz com que a próxima magia não relacionada cause dano de energia após conjurar uma magia deste elemento.",
+   "versao": "15.25.3a4a52",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Master_of_Thunder"
+  },
+  {
+   "nome": "Mentor Other",
+   "palavras": "uteta tio \"name\"",
+   "tipo": "Suporte",
+   "elemento": "",
+   "mana": 110,
+   "level": 150,
+   "premium": true,
+   "vocacoes": [
+    "Monks"
+   ],
+   "cooldown_s": 50,
+   "cooldown_grupo_s": 2,
+   "efeito": "O efeito dura 60 segundos e concede um benefício a outro jogador, variando conforme a sua vocação: * Knight: Dano reduzido 3% * Paladin: Dano causado pelo auto ataque aumentado em 5% * Sorcerer: Dano de magias e runas aumentado em 5% * Druid: Cura aumentada em 5% * Monk: Harmony point bonus aumentado em 2%",
+   "versao": "15.00.249ccc",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Mentor_Other"
+  },
+  {
+   "nome": "Mud Attack",
+   "palavras": "exori infir tera",
+   "tipo": "Ataque",
+   "elemento": "Earth",
+   "mana": 6,
+   "level": 1,
+   "premium": false,
+   "vocacoes": [
+    "Druids"
+   ],
+   "cooldown_s": 2,
+   "cooldown_grupo_s": 2,
+   "efeito": "Arquivo:Poisoned Flash Icon.gif Acerta o alvo causando dano de terra.",
+   "versao": "10.55",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Mud_Attack"
+  },
+  {
+   "nome": "Mystic Repulse",
+   "palavras": "exori amp pug",
+   "tipo": "Ataque",
+   "elemento": "Physical",
+   "mana": 150,
+   "level": 30,
+   "premium": true,
+   "vocacoes": [
+    "Monks"
+   ],
+   "cooldown_s": 8,
+   "cooldown_grupo_s": 2,
+   "efeito": "Causa um elevado dano a um único alvo até 7 de distância. *Aumenta sua harmonia ao usar a magia.",
+   "versao": "15.00.249ccc",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Mystic_Repulse"
+  },
+  {
+   "nome": "Nature's Embrace",
+   "palavras": "exura gran sio",
+   "tipo": "Cura",
+   "elemento": "Healing",
+   "mana": 400,
+   "level": 275,
+   "premium": true,
+   "vocacoes": [
+    "Druids"
+   ],
+   "cooldown_s": 60,
+   "cooldown_grupo_s": 1,
+   "efeito": "Recupera uma grande quantidade de Vida do jogador alvo. Esta magia não pode ser usada em si mesmo.",
+   "versao": "12.55.10451",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Nature%27s_Embrace"
+  },
+  {
+   "nome": "Physical Strike",
+   "palavras": "exori moe ico",
+   "tipo": "Ataque",
+   "elemento": "Physical",
+   "mana": 20,
+   "level": 16,
+   "premium": false,
+   "vocacoes": [
+    "Druids"
+   ],
+   "cooldown_s": 2,
+   "cooldown_grupo_s": 2,
+   "efeito": "Arquivo:Physical_Damage_Icon.gif Acerta o alvo causando dano físico.",
+   "versao": "8.7",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Physical_Strike"
+  },
+  {
+   "nome": "Practise Fire Wave",
+   "palavras": "exevo dis flam hur",
+   "tipo": "Ataque",
+   "elemento": "Fire",
+   "mana": 5,
+   "level": 1,
+   "premium": false,
+   "vocacoes": [
+    "Jogadores sem vocação"
+   ],
+   "cooldown_s": 4,
+   "cooldown_grupo_s": 2,
+   "efeito": "Arquivo:Burning Flash Icon.gif Atira uma wave de fogo em forma de cone na direção em que o player que usá-la estiver olhando.",
+   "versao": "9.8",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Practise_Fire_Wave"
+  },
+  {
+   "nome": "Practise Healing",
+   "palavras": "exura dis",
+   "tipo": "Cura",
+   "elemento": "",
+   "mana": 5,
+   "level": 1,
+   "premium": false,
+   "vocacoes": [
+    "Jogadores sem vocação"
+   ],
+   "cooldown_s": 1,
+   "cooldown_grupo_s": 1,
+   "efeito": "Cura uma quantidade pequena de HP.",
+   "versao": "9.8",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Practise_Healing"
+  },
+  {
+   "nome": "Protect Party",
+   "palavras": "utamo mas sio",
+   "tipo": "Party",
+   "elemento": "",
+   "mana": null,
+   "level": 32,
+   "premium": true,
+   "vocacoes": [
+    "Paladins"
+   ],
+   "cooldown_s": 2,
+   "cooldown_grupo_s": 2,
+   "efeito": "Arquivo:Strengthened Flash Icon.gif Aumenta o shielding skill dos membros da party em +3 por 2 minutos.",
+   "versao": "8.4",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Protect_Party"
+  },
+  {
+   "nome": "Protector",
+   "palavras": "utamo tempo",
+   "tipo": "Suporte, Focus",
+   "elemento": "",
+   "mana": 20,
+   "level": 20,
+   "premium": true,
+   "vocacoes": [
+    "Knights"
+   ],
+   "cooldown_s": 2,
+   "cooldown_grupo_s": 2,
+   "efeito": "Arquivo:Strengthened Flash Icon.gif Aumenta em 30% o shielding skill do usuário, além de reduzir todo o dano recebido em 15%. Em contrapartida, reduz todo o dano causado pelo usuário em 15%. Remove todos os efeitos da magia Blood Rage.",
+   "versao": "8.4",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Protector"
+  },
+  {
+   "nome": "Rage of the Skies",
+   "palavras": "exevo gran mas vis",
+   "tipo": "Ataque, Focus",
+   "elemento": "Energy",
+   "mana": 600,
+   "level": 55,
+   "premium": true,
+   "vocacoes": [
+    "Sorcerers"
+   ],
+   "cooldown_s": 40,
+   "cooldown_grupo_s": 4,
+   "efeito": "Arquivo:Electrified Flash Icon.gif Atinge 85 sqms (contando o seu) causando dano elétrico.",
+   "versao": "8.1",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Rage_of_the_Skies"
+  },
+  {
+   "nome": "Recovery",
+   "palavras": "utura",
+   "tipo": "Cura",
+   "elemento": "",
+   "mana": 75,
+   "level": 50,
+   "premium": true,
+   "vocacoes": [
+    "Knights",
+    "Paladins"
+   ],
+   "cooldown_s": 60,
+   "cooldown_grupo_s": 1,
+   "efeito": "Cura a sua vida em 20 por turno durante o Cooldown. Irá curar 400 HP ao longo dos 60 segundos.",
+   "versao": "8.7",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Recovery"
+  },
+  {
+   "nome": "Restoration",
+   "palavras": "exura max vita",
+   "tipo": "Cura",
+   "elemento": "Healing",
+   "mana": 260,
+   "level": 300,
+   "premium": true,
+   "vocacoes": [
+    "Druids",
+    "Sorcerers"
+   ],
+   "cooldown_s": 6,
+   "cooldown_grupo_s": 1,
+   "efeito": "Recupera a vida do usuário. Esta é a cura mais potente disponível para os magos.",
+   "versao": "12.55.10451",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Restoration"
+  },
+  {
+   "nome": "Restore Balance",
+   "palavras": "exura tio sio",
+   "tipo": "Cura",
+   "elemento": "Healing",
+   "mana": 120,
+   "level": 18,
+   "premium": true,
+   "vocacoes": [
+    "Monks"
+   ],
+   "cooldown_s": 2,
+   "cooldown_grupo_s": 1,
+   "efeito": "Cura o jogador alvo.",
+   "versao": "15.00.249ccc",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Restore_Balance"
+  },
+  {
+   "nome": "Salvation",
+   "palavras": "exura gran san",
+   "tipo": "Cura",
+   "elemento": "Healing",
+   "mana": 210,
+   "level": 60,
+   "premium": true,
+   "vocacoes": [
+    "Paladins"
+   ],
+   "cooldown_s": 1,
+   "cooldown_grupo_s": 1,
+   "efeito": "Cura uma grande quantidade de vida.",
+   "versao": "8.7",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Salvation"
+  },
+  {
+   "nome": "Sap Strength",
+   "palavras": "exori kor",
+   "tipo": "Suporte, Crippling",
+   "elemento": "",
+   "mana": 300,
+   "level": 175,
+   "premium": true,
+   "vocacoes": [
+    "Sorcerers"
+   ],
+   "cooldown_s": 12,
+   "cooldown_grupo_s": 2,
+   "efeito": "Reduz todo o dano causado pelas criaturas atingidas por 16 segundos. Um ícone identifica as criaturas afetadas por esta magia.",
+   "versao": "12.55.10451",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Sap_Strength"
+  },
+  {
+   "nome": "Scorch",
+   "palavras": "exevo infir flam hur",
+   "tipo": "Ataque",
+   "elemento": "Fire",
+   "mana": 8,
+   "level": 1,
+   "premium": false,
+   "vocacoes": [
+    "Sorcerers"
+   ],
+   "cooldown_s": 4,
+   "cooldown_grupo_s": 2,
+   "efeito": "Arquivo:Burning Flash Icon.gif Atira uma wave de fogo em forma de cone na direção em que o player que usá-la estiver olhando.",
+   "versao": "10.55",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Scorch"
+  },
+  {
+   "nome": "Shared Conservation",
+   "palavras": "utura sio",
+   "tipo": "Stance",
+   "elemento": "",
+   "mana": 400,
+   "level": 20,
+   "premium": true,
+   "vocacoes": [
+    "Druids"
+   ],
+   "cooldown_s": 10,
+   "cooldown_grupo_s": 2,
+   "efeito": "Ativa uma stance de cura em grupo. Heal Friend e Nature's Embrace também curam um segundo membro da party na janela de jogo em 30% do valor da cura. Além disso, aumenta sua autocura em 10%.",
+   "versao": "15.25.3a4a52",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Shared_Conservation"
+  },
+  {
+   "nome": "Sharpshooter",
+   "palavras": "utori con",
+   "tipo": "Stance",
+   "elemento": "",
+   "mana": 250,
+   "level": 20,
+   "premium": true,
+   "vocacoes": [
+    "Paladins"
+   ],
+   "cooldown_s": 10,
+   "cooldown_grupo_s": 2,
+   "efeito": "Arquivo:Strengthened Flash Icon.gif Ativa uma stance ofensiva que aumenta o Distance Fighting em 32%.",
+   "versao": "8.4",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Sharpshooter"
+  },
+  {
+   "nome": "Shield Bash",
+   "palavras": "exori ico scu",
+   "tipo": "Ataque",
+   "elemento": "Physical",
+   "mana": 30,
+   "level": 18,
+   "premium": true,
+   "vocacoes": [
+    "Knights"
+   ],
+   "cooldown_s": 4,
+   "cooldown_grupo_s": 2,
+   "efeito": "Arquivo:Physical_Damage_Icon.gif Acerta o alvo causando dano físico com base no valor de defesa do escudo equipado e reduz em 50% o dano do próximo ataque automático do alvo realizado em até 10 segundos.",
+   "versao": "15.25.3a4a52",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Shield_Bash"
+  },
+  {
+   "nome": "Shield Slam",
+   "palavras": "exori scu",
+   "tipo": "Ataque",
+   "elemento": "Físico",
+   "mana": 110,
+   "level": 30,
+   "premium": true,
+   "vocacoes": [
+    "Knights"
+   ],
+   "cooldown_s": 6,
+   "cooldown_grupo_s": 2,
+   "efeito": "Arquivo:Physical_Damage_Icon.gif Atinge todos os inimigos adjacentes, causando dano físico com base no valor de defesa do escudo equipado e reduz em 50% o dano do próximo ataque automático dos alvos realizado em até 10 segundos.",
+   "versao": "15.25.3a4a52",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Shield_Slam"
+  },
+  {
+   "nome": "Spirit Mend",
+   "palavras": "exura gran tio",
+   "tipo": "Cura",
+   "elemento": "Healing",
+   "mana": 210,
+   "level": 80,
+   "premium": true,
+   "vocacoes": [
+    "Monks"
+   ],
+   "cooldown_s": 1,
+   "cooldown_grupo_s": 1,
+   "efeito": "Concebido para ser a auto-cura do monge. *Pode ser comparado à Salvation.",
+   "versao": "15.00.249ccc",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Spirit_Mend"
+  },
+  {
+   "nome": "Spiritual Outburst",
+   "palavras": "exori gran mas nia",
+   "tipo": "Ataque",
+   "elemento": "Physical",
+   "mana": 425,
+   "level": 1,
+   "premium": true,
+   "vocacoes": [
+    "Monks"
+   ],
+   "cooldown_s": 24,
+   "cooldown_grupo_s": 2,
+   "efeito": "Gasta toda a Harmonia e causa dano em corrente a até 8 inimigos em dois momentos. O primeiro impacto é imediato e mais forte, seguido por um segundo acerto, 1 segundo depois, com dano reduzido. * A distância do salto em cadeia é 2 e os saltos priorizam as criaturas mais próximas.",
+   "versao": "15.00.249ccc",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Spiritual_Outburst"
+  },
+  {
+   "nome": "Strong Energy Strike",
+   "palavras": "exori gran vis",
+   "tipo": "Ataque, Special",
+   "elemento": "Energy",
+   "mana": 60,
+   "level": 80,
+   "premium": true,
+   "vocacoes": [
+    "Sorcerers"
+   ],
+   "cooldown_s": 8,
+   "cooldown_grupo_s": 2,
+   "efeito": "Arquivo:Electrified Flash Icon.gif Causa um dano de energia forte e centrado no único quadrado na frente do jogador ou lança em um alvo de até 3 sqm de distância.",
+   "versao": "8.7",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Strong_Energy_Strike"
+  },
+  {
+   "nome": "Strong Ethereal Spear",
+   "palavras": "exori gran con",
+   "tipo": "Ataque",
+   "elemento": "Physical",
+   "mana": 55,
+   "level": 90,
+   "premium": true,
+   "vocacoes": [
+    "Paladins"
+   ],
+   "cooldown_s": 8,
+   "cooldown_grupo_s": 2,
+   "efeito": "Arquivo:Physical Damage Icon.gif Uma versão mais forte da Ethereal Spear.",
+   "versao": "8.7",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Strong_Ethereal_Spear"
+  },
+  {
+   "nome": "Strong Flame Strike",
+   "palavras": "exori gran flam",
+   "tipo": "Ataque, Special",
+   "elemento": "Fire",
+   "mana": 60,
+   "level": 70,
+   "premium": true,
+   "vocacoes": [
+    "Sorcerers"
+   ],
+   "cooldown_s": 8,
+   "cooldown_grupo_s": 2,
+   "efeito": "Arquivo:Burning Flash Icon.gif Causa um forte dano de fogo em foco no único quadrado na frente do jogador ou lança em um alvo de até 3 sqm de distância.",
+   "versao": "8.7",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Strong_Flame_Strike"
+  },
+  {
+   "nome": "Strong Haste",
+   "palavras": "utani gran hur",
+   "tipo": "Suporte",
+   "elemento": "",
+   "mana": 100,
+   "level": 20,
+   "premium": true,
+   "vocacoes": [
+    "Druids",
+    "Monks",
+    "Sorcerers"
+   ],
+   "cooldown_s": 2,
+   "cooldown_grupo_s": 2,
+   "efeito": "Arquivo:Haste Flash Icon.gif Aumenta sua velocidade durante 22 segundos.",
+   "versao": "6.4",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Strong_Haste"
+  },
+  {
+   "nome": "Strong Ice Strike",
+   "palavras": "exori gran frigo",
+   "tipo": "Ataque, Special",
+   "elemento": "Ice",
+   "mana": 60,
+   "level": 80,
+   "premium": true,
+   "vocacoes": [
+    "Druids"
+   ],
+   "cooldown_s": 8,
+   "cooldown_grupo_s": 2,
+   "efeito": "Arquivo:Freezing Flash Icon.gif Causa Ice Damage no quadrado da frente de quem usou, ou lança em um alvo próximo até 7 sqm de distância.",
+   "versao": "8.7",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Strong_Ice_Strike"
+  },
+  {
+   "nome": "Strong Ice Wave",
+   "palavras": "exevo gran frigo hur",
+   "tipo": "Ataque",
+   "elemento": "Ice",
+   "mana": 170,
+   "level": 40,
+   "premium": true,
+   "vocacoes": [
+    "Druids"
+   ],
+   "cooldown_s": 4,
+   "cooldown_grupo_s": 2,
+   "efeito": "Arquivo:Freezing Flash Icon.gif Ataca gelo de uma forma parecida com a Ice Wave, porém mais forte.",
+   "versao": "8.7",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Strong_Ice_Wave"
+  },
+  {
+   "nome": "Strong Terra Strike",
+   "palavras": "exori gran tera",
+   "tipo": "Ataque, Special",
+   "elemento": "Earth",
+   "mana": 60,
+   "level": 70,
+   "premium": true,
+   "vocacoes": [
+    "Druids"
+   ],
+   "cooldown_s": 8,
+   "cooldown_grupo_s": 2,
+   "efeito": "Arquivo:Poisoned Flash Icon.gif Causa earth damage focalizado em um único quadrado na frente de quem usa a magia, ou lança até 7 sqm de distância se tiver um alvo.",
+   "versao": "8.7",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Strong_Terra_Strike"
+  },
+  {
+   "nome": "Summon Creature",
+   "palavras": "utevo res",
+   "tipo": "Summon",
+   "elemento": "",
+   "mana": null,
+   "level": 25,
+   "premium": false,
+   "vocacoes": [
+    "Druids",
+    "Sorcerers"
+   ],
+   "cooldown_s": 2,
+   "cooldown_grupo_s": 2,
+   "efeito": "Invoca uma criatura para servi-lo.",
+   "versao": "",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Summon_Creature"
+  },
+  {
+   "nome": "Summon Druid Familiar",
+   "palavras": "utevo gran res dru",
+   "tipo": "Summon",
+   "elemento": "",
+   "mana": 3000,
+   "level": 200,
+   "premium": true,
+   "vocacoes": [
+    "Druids"
+   ],
+   "cooldown_s": 1800,
+   "cooldown_grupo_s": 2,
+   "efeito": "Sumona um Druid Familiar por 900 segundos (15 min).",
+   "versao": "12.60",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Summon_Druid_Familiar"
+  },
+  {
+   "nome": "Summon Emberwing",
+   "palavras": "utevo gran res sac",
+   "tipo": "Summon",
+   "elemento": "",
+   "mana": 2000,
+   "level": 200,
+   "premium": true,
+   "vocacoes": [
+    "Paladins"
+   ],
+   "cooldown_s": 1,
+   "cooldown_grupo_s": 2,
+   "efeito": "Sumona um Paladin Familiar por 900 segundos (15 min).",
+   "versao": "11.40",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Summon_Emberwing"
+  },
+  {
+   "nome": "Summon Grovebeast",
+   "palavras": "utevo gran res dru",
+   "tipo": "Summon",
+   "elemento": "",
+   "mana": 3000,
+   "level": 200,
+   "premium": true,
+   "vocacoes": [
+    "Druids"
+   ],
+   "cooldown_s": 1,
+   "cooldown_grupo_s": 2,
+   "efeito": "Sumona um Druid Familiar por 900 segundos (15 min).",
+   "versao": "11.40",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Summon_Grovebeast"
+  },
+  {
+   "nome": "Summon Knight Familiar",
+   "palavras": "utevo gran res eq",
+   "tipo": "Summon",
+   "elemento": "",
+   "mana": 1000,
+   "level": 200,
+   "premium": true,
+   "vocacoes": [
+    "Knights"
+   ],
+   "cooldown_s": 1800,
+   "cooldown_grupo_s": 2,
+   "efeito": "Sumona um Knight Familiar por 900 segundos (15 min).",
+   "versao": "12.60",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Summon_Knight_Familiar"
+  },
+  {
+   "nome": "Summon Monk Familiar",
+   "palavras": "utevo gran res tio",
+   "tipo": "Summon",
+   "elemento": "",
+   "mana": 1500,
+   "level": 200,
+   "premium": true,
+   "vocacoes": [
+    "Monks"
+   ],
+   "cooldown_s": 1800,
+   "cooldown_grupo_s": 2,
+   "efeito": "Sumona um Monk Familiar por 900 segundos (15 min).",
+   "versao": "15.00.249ccc",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Summon_Monk_Familiar"
+  },
+  {
+   "nome": "Summon Paladin Familiar",
+   "palavras": "utevo gran res sac",
+   "tipo": "Summon",
+   "elemento": "",
+   "mana": 2000,
+   "level": 200,
+   "premium": true,
+   "vocacoes": [
+    "Paladins"
+   ],
+   "cooldown_s": 1800,
+   "cooldown_grupo_s": 2,
+   "efeito": "Sumona um Paladin Familiar por 900 segundos (15 min).",
+   "versao": "12.60",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Summon_Paladin_Familiar"
+  },
+  {
+   "nome": "Summon Skullfrost",
+   "palavras": "utevo gran res eq",
+   "tipo": "Summon",
+   "elemento": "",
+   "mana": 1000,
+   "level": 200,
+   "premium": true,
+   "vocacoes": [
+    "Knights"
+   ],
+   "cooldown_s": 1,
+   "cooldown_grupo_s": 2,
+   "efeito": "Sumona um Knight Familiar por 900 segundos (15 min).",
+   "versao": "11.40",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Summon_Skullfrost"
+  },
+  {
+   "nome": "Summon Sorcerer Familiar",
+   "palavras": "utevo gran res ven",
+   "tipo": "Summon",
+   "elemento": "",
+   "mana": 3000,
+   "level": 200,
+   "premium": true,
+   "vocacoes": [
+    "Sorcerers"
+   ],
+   "cooldown_s": 1800,
+   "cooldown_grupo_s": 2,
+   "efeito": "Sumona um Sorcerer Familiar por 900 segundos (15 min).",
+   "versao": "12.60",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Summon_Sorcerer_Familiar"
+  },
+  {
+   "nome": "Summon Thundergiant",
+   "palavras": "utevo gran res ven",
+   "tipo": "Summon",
+   "elemento": "",
+   "mana": 3000,
+   "level": 200,
+   "premium": true,
+   "vocacoes": [
+    "Sorcerers"
+   ],
+   "cooldown_s": 1,
+   "cooldown_grupo_s": 2,
+   "efeito": "Sumona um Sorcerer Familiar por 900 segundos (15 min).",
+   "versao": "11.40",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Summon_Thundergiant"
+  },
+  {
+   "nome": "Sweeping Takedown",
+   "palavras": "exori mas nia",
+   "tipo": "Ataque",
+   "elemento": "Physical",
+   "mana": 195,
+   "level": 60,
+   "premium": true,
+   "vocacoes": [
+    "Monks"
+   ],
+   "cooldown_s": 8,
+   "cooldown_grupo_s": 2,
+   "efeito": "Gaste toda a Harmonia para causar dano aos inimigos a frente e ao lado do monge, ataque em área que atinge até 14 Sqms. *Perde a harmonia ao usar a magia.",
+   "versao": "15.00.249ccc",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Sweeping_Takedown"
+  },
+  {
+   "nome": "Swift Foot",
+   "palavras": "utamo tempo san",
+   "tipo": "Suporte, Focus",
+   "elemento": "",
+   "mana": 400,
+   "level": 55,
+   "premium": true,
+   "vocacoes": [
+    "Paladins"
+   ],
+   "cooldown_s": 10,
+   "cooldown_grupo_s": 2,
+   "efeito": "Arquivo:Haste Flash Icon.gif Aumenta a velocidade dos Paladins em 80% por 10 segundos. Enquanto estiver ativa, é possível atacar e conjurar magias, porém todo o dano causado é reduzido em 30%.",
+   "versao": "8.4",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Swift_Foot"
+  },
+  {
+   "nome": "Swift Jab",
+   "palavras": "exori infir pug",
+   "tipo": "Ataque",
+   "elemento": "Physical",
+   "mana": 3,
+   "level": 1,
+   "premium": false,
+   "vocacoes": [
+    "Monks"
+   ],
+   "cooldown_s": 2,
+   "cooldown_grupo_s": 2,
+   "efeito": "Causa dano a um inimigo único. *Aumenta sua harmonia ao usar a magia.",
+   "versao": "15.00.249ccc",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Swift_Jab"
+  },
+  {
+   "nome": "Terra Burst",
+   "palavras": "exevo ulus tera",
+   "tipo": "Ataque, Bursts of Nature",
+   "elemento": "Earth",
+   "mana": 230,
+   "level": 1,
+   "premium": true,
+   "vocacoes": [
+    "Druids"
+   ],
+   "cooldown_s": 22,
+   "cooldown_grupo_s": 2,
+   "efeito": "Lança um poderoso anel de terra ao redor do personagem.",
+   "versao": "13.10.12852",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Terra_Burst"
+  },
+  {
+   "nome": "Terra Strike",
+   "palavras": "exori tera",
+   "tipo": "Ataque",
+   "elemento": "Earth",
+   "mana": 20,
+   "level": 13,
+   "premium": false,
+   "vocacoes": [
+    "Druids",
+    "Sorcerers"
+   ],
+   "cooldown_s": 2,
+   "cooldown_grupo_s": 2,
+   "efeito": "Arquivo:Poisoned Flash Icon.gif Acerta o alvo causando dano de terra.",
+   "versao": "8.1",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Terra_Strike"
+  },
+  {
+   "nome": "Terra Wave",
+   "palavras": "exevo tera hur",
+   "tipo": "Ataque",
+   "elemento": "Earth",
+   "mana": 170,
+   "level": 38,
+   "premium": false,
+   "vocacoes": [
+    "Druids"
+   ],
+   "cooldown_s": 4,
+   "cooldown_grupo_s": 2,
+   "efeito": "link= Ataca uma wave na direção de quem usá-la causando dano de terra.",
+   "versao": "8.1",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Terra_Wave"
+  },
+  {
+   "nome": "Thousand Fist Blows",
+   "palavras": "exori mas amp pug",
+   "tipo": "Ataque",
+   "elemento": "físico",
+   "mana": 145,
+   "level": 120,
+   "premium": true,
+   "vocacoes": [
+    "Monks"
+   ],
+   "cooldown_s": 8,
+   "cooldown_grupo_s": 2,
+   "efeito": "É uma magia do tipo Builder, aumentando sua harmonia ao ser utilizada. Possui 3 modos de mira: * Com crosshair (use-with). * Na posição do cursor do mouse. * Abaixo do alvo selecionado ou, caso não haja um alvo, abaixo do personagem.",
+   "versao": "15.25.3a4a52",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Thousand_Fist_Blows"
+  },
+  {
+   "nome": "Tiger Clash",
+   "palavras": "exori infir nia",
+   "tipo": "Ataque",
+   "elemento": "Physical",
+   "mana": 18,
+   "level": 1,
+   "premium": false,
+   "vocacoes": [
+    "Monks"
+   ],
+   "cooldown_s": 8,
+   "cooldown_grupo_s": 2,
+   "efeito": "Ataque de alvo único. *Gaste toda a Harmonia para causar dano a um inimigo.",
+   "versao": "15.00.249ccc",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Tiger_Clash"
+  },
+  {
+   "nome": "Train Party",
+   "palavras": "utito mas sio",
+   "tipo": "Party",
+   "elemento": "",
+   "mana": null,
+   "level": 32,
+   "premium": true,
+   "vocacoes": [
+    "Knights"
+   ],
+   "cooldown_s": 2,
+   "cooldown_grupo_s": 2,
+   "efeito": "Arquivo:Strengthened Flash Icon.gif Aumenta o sword, axe, club e distance fighting de todos os membros da party ao redor de quem usá-la em +3 durante 2 minutos.",
+   "versao": "8.4",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Train_Party"
+  },
+  {
+   "nome": "Ultimate Energy Strike",
+   "palavras": "exori max vis",
+   "tipo": "Ataque, Ultimate Strikes",
+   "elemento": "Energy",
+   "mana": 100,
+   "level": 100,
+   "premium": true,
+   "vocacoes": [
+    "Sorcerers"
+   ],
+   "cooldown_s": 30,
+   "cooldown_grupo_s": 2,
+   "efeito": "Arquivo:Electrified Flash Icon.gif Age de maneira semelhante ao Energy Strike só que muito mais forte.",
+   "versao": "8.7",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Ultimate_Energy_Strike"
+  },
+  {
+   "nome": "Ultimate Flame Strike",
+   "palavras": "exori max flam",
+   "tipo": "Ataque, Ultimate Strikes",
+   "elemento": "Fire",
+   "mana": 100,
+   "level": 90,
+   "premium": true,
+   "vocacoes": [
+    "Sorcerers"
+   ],
+   "cooldown_s": 30,
+   "cooldown_grupo_s": 2,
+   "efeito": "Arquivo:Burning Flash Icon.gif Age de maneira semelhante ao Flame Strike só que muito mais forte.",
+   "versao": "8.7",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Ultimate_Flame_Strike"
+  },
+  {
+   "nome": "Ultimate Healing",
+   "palavras": "exura vita",
+   "tipo": "Cura",
+   "elemento": "Healing",
+   "mana": 160,
+   "level": 30,
+   "premium": false,
+   "vocacoes": [
+    "Druids",
+    "Sorcerers"
+   ],
+   "cooldown_s": 1,
+   "cooldown_grupo_s": 1,
+   "efeito": "Cura uma quantidade grande de HP.",
+   "versao": "",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Ultimate_Healing"
+  },
+  {
+   "nome": "Ultimate Ice Strike",
+   "palavras": "exori max frigo",
+   "tipo": "Ataque, Ultimate Strikes",
+   "elemento": "Ice",
+   "mana": 100,
+   "level": 100,
+   "premium": true,
+   "vocacoes": [
+    "Druids"
+   ],
+   "cooldown_s": 30,
+   "cooldown_grupo_s": 2,
+   "efeito": "Arquivo:Freezing Flash Icon.gif Age de maneira semelhante ao Ice Strike só que muito mais forte.",
+   "versao": "8.7",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Ultimate_Ice_Strike"
+  },
+  {
+   "nome": "Ultimate Light",
+   "palavras": "utevo vis lux",
+   "tipo": "Suporte",
+   "elemento": "",
+   "mana": 140,
+   "level": 26,
+   "premium": true,
+   "vocacoes": [
+    "Druids",
+    "Sorcerers"
+   ],
+   "cooldown_s": 2,
+   "cooldown_grupo_s": 2,
+   "efeito": "Essa magia ilumina o escuro em um raio de 9 quadrados e dura por volta de 33 minutos.",
+   "versao": "6.4",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Ultimate_Light"
+  },
+  {
+   "nome": "Ultimate Terra Strike",
+   "palavras": "exori max tera",
+   "tipo": "Ataque, Ultimate Strikes",
+   "elemento": "Earth",
+   "mana": 100,
+   "level": 90,
+   "premium": true,
+   "vocacoes": [
+    "Druids"
+   ],
+   "cooldown_s": 30,
+   "cooldown_grupo_s": 2,
+   "efeito": "Arquivo:Poisoned Flash Icon.gif Age de maneira semelhante ao Terra Strike só que muito mais forte.",
+   "versao": "8.7",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Ultimate_Terra_Strike"
+  },
+  {
+   "nome": "Undead Legion",
+   "palavras": "exana mas mort",
+   "tipo": "Summon",
+   "elemento": "",
+   "mana": 500,
+   "level": 30,
+   "premium": true,
+   "vocacoes": [
+    "Druids"
+   ],
+   "cooldown_s": null,
+   "cooldown_grupo_s": null,
+   "efeito": "Cria um Skeleton em cada corpo em volta de você.",
+   "versao": "",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Undead_Legion"
+  },
+  {
+   "nome": "Virtue of Harmony",
+   "palavras": "utori virtu",
+   "tipo": "Suporte, Virtude",
+   "elemento": "",
+   "mana": 210,
+   "level": 20,
+   "premium": true,
+   "vocacoes": [
+    "Monks"
+   ],
+   "cooldown_s": 10,
+   "cooldown_grupo_s": 2,
+   "efeito": "Aumenta o bónus base de Harmonia em 3%, ou 6% quando sereno. Devido à natureza multiplicativa da Harmonia, isto pode representar um efeito adicional de até 160% para os Gastadores. Além disso, sempre que um Spender for utilizado em Virtude da Harmonia, reembolsará 1 Harmonia.",
+   "versao": "15.00.249ccc",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Virtue_of_Harmony"
+  },
+  {
+   "nome": "Virtue of Justice",
+   "palavras": "utito virtu",
+   "tipo": "Suporte, Virtude",
+   "elemento": "",
+   "mana": 210,
+   "level": 20,
+   "premium": true,
+   "vocacoes": [
+    "Monks"
+   ],
+   "cooldown_s": 10,
+   "cooldown_grupo_s": 2,
+   "efeito": "Aumenta o Fist Fighting em 8%, ou 16% quando sereno. Além do aumento de skill, fornece bônus para membros próximos da party: *Knight: -3% dano recebido. *Paladin: +6% dano de auto attack. *Sorcerer: +6% dano de spell/rune. *Druid: +12% de spells de cura. O monk, caso esteja em estado sereno, receberá também estas mesmas bonificações, desde que sua party possua membros das vocações respectivas.",
+   "versao": "15.00.249ccc",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Virtue_of_Justice"
+  },
+  {
+   "nome": "Virtue of Sustain",
+   "palavras": "utura tio",
+   "tipo": "Suporte, Virtude",
+   "elemento": "",
+   "mana": 210,
+   "level": 20,
+   "premium": true,
+   "vocacoes": [
+    "Monks"
+   ],
+   "cooldown_s": 10,
+   "cooldown_grupo_s": 2,
+   "efeito": "Aumenta toda a cura realizada por magias de monge em 35%, ou 70% quando sereno. Isto inclui a cura passiva de Virtudes ao gerar ou gastar Harmonia.",
+   "versao": "15.00.249ccc",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Virtue_of_Sustain"
+  },
+  {
+   "nome": "Whirlwind Throw",
+   "palavras": "exori hur",
+   "tipo": "Ataque",
+   "elemento": "Físico",
+   "mana": 40,
+   "level": 28,
+   "premium": true,
+   "vocacoes": [
+    "Knights"
+   ],
+   "cooldown_s": 6,
+   "cooldown_grupo_s": 2,
+   "efeito": "Arquivo:Physical Damage Icon.gif Ataca o monstro selecionado arremessando sua arma como um boomerang. Tem um efeito parecido com o de uma HMM usada por mages. Bom pra ser usado em criaturas que correm com pouco hp (como Dragons, por exemplo). Caso esteja equipado com uma arma encantada, parte do dano da magia será dano mágico.",
+   "versao": "8.0",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Whirlwind_Throw"
+  },
+  {
+   "nome": "Wound Cleansing",
+   "palavras": "exura ico",
+   "tipo": "Cura",
+   "elemento": "Healing",
+   "mana": 60,
+   "level": 8,
+   "premium": false,
+   "vocacoes": [
+    "Knights"
+   ],
+   "cooldown_s": 2,
+   "cooldown_grupo_s": 2,
+   "efeito": "Cura em média 60~150% mais que um Exura.",
+   "versao": "8.7",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Wound_Cleansing"
+  },
+  {
+   "nome": "Wrath of Nature",
+   "palavras": "exevo gran mas tera",
+   "tipo": "Ataque, Focus",
+   "elemento": "Earth",
+   "mana": 700,
+   "level": 55,
+   "premium": true,
+   "vocacoes": [
+    "Druids"
+   ],
+   "cooldown_s": 40,
+   "cooldown_grupo_s": 4,
+   "efeito": "Arquivo:Poisoned Flash Icon.gif Atinge 101 sqms (contando o seu) causando dano de terra.",
+   "versao": "8.1",
+   "wiki": "https://www.tibiawiki.com.br/wiki/Wrath_of_Nature"
+  }
+ ]
+}

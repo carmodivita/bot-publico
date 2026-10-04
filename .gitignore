@@ -1,0 +1,8 @@
+__pycache__/
+.DS_Store
+
+# Arquivos da máquina local (calibração, ajustes, templates e atalho)
+coords_windows.json
+ajustes.json
+imgs_windows/
+Huntix.lnk
